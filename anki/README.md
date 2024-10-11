@@ -2,13 +2,73 @@
 
 ## Questions
 
+| ID | File name / path | Part | Chapter |
+| --- | --- | --- | --- |
+| **-** | **Fundamentals** | **1** | **-** |
+| **-** | **Fundamentals > Variables** | **1** | **1** |
+| [1](#id1) | [Use meaningful and pronounceable variable](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/1%20-%20Use%20meaningful%20and%20pronounceable%20variable.md) | 1 | 1 |
+| [2](#id2) | [Use the same vocabulary for the same type](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/2%20-%20Use%20the%20same%20vocabulary%20for%20the%20same%20type.md) | 1 | 1 |
+| [3](#id3) | [Use searchable names we will read more cod](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/3%20-%20Use%20searchable%20names%20we%20will%20read%20more%20cod.md) | 1 | 1 |
+| [4](#id4) | [Use explanatory variables bad java](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/4%20-%20Use%20explanatory%20variables%20bad%20java.md) | 1 | 1 |
+| [5](#id5) | [Avoid mental mapping explicit is better th](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/5%20-%20Avoid%20mental%20mapping%20explicit%20is%20better%20th.md) | 1 | 1 |
+| [6](#id6) | [Don t add unneeded context if your class-o](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/6%20-%20Don%20t%20add%20unneeded%20context%20if%20your%20class-o.md) | 1 | 1 |
+| [7](#id7) | [Use default parameters instead of short ci](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/7%20-%20Use%20default%20parameters%20instead%20of%20short%20ci.md) | 1 | 1 |
+| **-** | **Fundamentals > Functions** | **1** | **2** |
+| [8](#id8) | [Function arguments 2 or fewer ideally li](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/8%20-%20Function%20arguments%202%20or%20fewer%20ideally%20li.md) | 1 | 2 |
+| [9](#id9) | [Functions should do one thing this is by f](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/9%20-%20Functions%20should%20do%20one%20thing%20this%20is%20by%20f.md) | 1 | 2 |
+| [10](#id10) | [Function names should say what they do b](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/10%20-%20Function%20names%20should%20say%20what%20they%20do%20b.md) | 1 | 2 |
+| [11](#id11) | [Functions should only be one level of abst](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/11%20-%20Functions%20should%20only%20be%20one%20level%20of%20abst.md) | 1 | 2 |
+| [12](#id12) | [Remove duplicate code do your absolute bes](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/12%20-%20Remove%20duplicate%20code%20do%20your%20absolute%20bes.md) | 1 | 2 |
+| [13](#id13) | [Set default objects with object assign b](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/13%20-%20Set%20default%20objects%20with%20object%20assign%20b.md) | 1 | 2 |
+| [14](#id14) | [Don t use flags as function parameters fla](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/14%20-%20Don%20t%20use%20flags%20as%20function%20parameters%20fla.md) | 1 | 2 |
+| [15](#id15) | [Avoid side effects part 1 a function pro](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/15%20-%20Avoid%20side%20effects%20part%201%20a%20function%20pro.md) | 1 | 2 |
+| [16](#id16) | [Avoid side effects part 2 in javascript](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/16%20-%20Avoid%20side%20effects%20part%202%20in%20javascript.md) | 1 | 2 |
+| [17](#id17) | [Don t write to global functions polluting](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/17%20-%20Don%20t%20write%20to%20global%20functions%20polluting.md) | 1 | 2 |
+| [18](#id18) | [Favor functional programming over imperati](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/18%20-%20Favor%20functional%20programming%20over%20imperati.md) | 1 | 2 |
+| [19](#id19) | [Encapsulate conditionals bad javas](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/19%20-%20Encapsulate%20conditionals%20bad%20javas.md) | 1 | 2 |
+| [20](#id20) | [Avoid negative conditionals bad ja](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/20%20-%20Avoid%20negative%20conditionals%20bad%20ja.md) | 1 | 2 |
+| [21](#id21) | [Avoid conditionals this seems like an impo](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/21%20-%20Avoid%20conditionals%20this%20seems%20like%20an%20impo.md) | 1 | 2 |
+| [22](#id22) | [Avoid type-checking part 1 javascript is](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/22%20-%20Avoid%20type-checking%20part%201%20javascript%20is.md) | 1 | 2 |
+| [23](#id23) | [Avoid type-checking part 2 if you are wo](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/23%20-%20Avoid%20type-checking%20part%202%20if%20you%20are%20wo.md) | 1 | 2 |
+| [24](#id24) | [Don t over-optimize modern browsers do a l](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/24%20-%20Don%20t%20over-optimize%20modern%20browsers%20do%20a%20l.md) | 1 | 2 |
+| [25](#id25) | [Remove dead code dead code is just as bad](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/25%20-%20Remove%20dead%20code%20dead%20code%20is%20just%20as%20bad.md) | 1 | 2 |
+| **-** | **Fundamentals > Objects and Data Structures** | **1** | **3** |
+| [26](#id26) | [Use getters and setters using getters and](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%203%20-%20Objects%20and%20Data%20Structures/26%20-%20Use%20getters%20and%20setters%20using%20getters%20and.md) | 1 | 3 |
+| [27](#id27) | [Make objects have private members this can](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%203%20-%20Objects%20and%20Data%20Structures/27%20-%20Make%20objects%20have%20private%20members%20this%20can.md) | 1 | 3 |
+| **-** | **Fundamentals > Classes** | **1** | **4** |
+| [28](#id28) | [Prefer es2015-es6 classes over es5 plain f](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/28%20-%20Prefer%20es2015-es6%20classes%20over%20es5%20plain%20f.md) | 1 | 4 |
+| [29](#id29) | [Use method chaining this pattern is very u](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/29%20-%20Use%20method%20chaining%20this%20pattern%20is%20very%20u.md) | 1 | 4 |
+| [30](#id30) | [Prefer composition over inheritance as sta](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/30%20-%20Prefer%20composition%20over%20inheritance%20as%20sta.md) | 1 | 4 |
+| **-** | **Fundamentals > SOLID** | **1** | **5** |
+| [31](#id31) | [Single responsibility principle srp as s](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/31%20-%20Single%20responsibility%20principle%20srp%20as%20s.md) | 1 | 5 |
+| [32](#id32) | [Open-closed principle ocp as stated by b](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/32%20-%20Open-closed%20principle%20ocp%20as%20stated%20by%20b.md) | 1 | 5 |
+| [33](#id33) | [Liskov substitution principle lsp this i](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/33%20-%20Liskov%20substitution%20principle%20lsp%20this%20i.md) | 1 | 5 |
+| [34](#id34) | [Interface segregation principle isp java](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/34%20-%20Interface%20segregation%20principle%20isp%20java.md) | 1 | 5 |
+| [35](#id35) | [Dependency inversion principle dip this](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/35%20-%20Dependency%20inversion%20principle%20dip%20this.md) | 1 | 5 |
+| **-** | **Fundamentals > Testing** | **1** | **6** |
+| [36](#id36) | [Single concept per test bad javasc](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%206%20-%20Testing/36%20-%20Single%20concept%20per%20test%20bad%20javasc.md) | 1 | 6 |
+| **-** | **Fundamentals > Concurrency** | **1** | **7** |
+| [37](#id37) | [Use promises not callbacks callbacks aren](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/37%20-%20Use%20promises%20not%20callbacks%20callbacks%20aren.md) | 1 | 7 |
+| [38](#id38) | [Async-await are even cleaner than promises](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/38%20-%20Async-await%20are%20even%20cleaner%20than%20promises.md) | 1 | 7 |
+| **-** | **Fundamentals > Error Handling** | **1** | **8** |
+| [39](#id39) | [Don t ignore caught errors doing nothing w](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%208%20-%20Error%20Handling/39%20-%20Don%20t%20ignore%20caught%20errors%20doing%20nothing%20w.md) | 1 | 8 |
+| [40](#id40) | [Don t ignore rejected promises for the sam](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%208%20-%20Error%20Handling/40%20-%20Don%20t%20ignore%20rejected%20promises%20for%20the%20sam.md) | 1 | 8 |
+| **-** | **Fundamentals > Formatting** | **1** | **9** |
+| [41](#id41) | [Use consistent capitalization javascript i](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Formatting/41%20-%20Use%20consistent%20capitalization%20javascript%20i.md) | 1 | 9 |
+| [42](#id42) | [Function callers and callees should be clo](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Formatting/42%20-%20Function%20callers%20and%20callees%20should%20be%20clo.md) | 1 | 9 |
+| **-** | **Fundamentals > Comments** | **1** | **10** |
+| [43](#id43) | [Only comment things that have business log](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/43%20-%20Only%20comment%20things%20that%20have%20business%20log.md) | 1 | 10 |
+| [44](#id44) | [Don t leave commented out code in your cod](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/44%20-%20Don%20t%20leave%20commented%20out%20code%20in%20your%20cod.md) | 1 | 10 |
+| [45](#id45) | [Don t have journal comments remember use](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/45%20-%20Don%20t%20have%20journal%20comments%20remember%20use.md) | 1 | 10 |
+| [46](#id46) | [Avoid positional markers they usually just](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/46%20-%20Avoid%20positional%20markers%20they%20usually%20just.md) | 1 | 10 |
+
 ### Part I - Fundamentals
 
-#### Chapter {REPLACECHAPTER} - **Variables**
+#### Chapter 1 - **Variables**
 
-Q:: =============================================
+Q:: =============================================  
 
-Use meaningful and pronounceable variable names
+##### Use meaningful and pronounceable variable names
 
 **Bad:**
 
@@ -16,17 +76,18 @@ Use meaningful and pronounceable variable names
 const yyyymmdstr = moment().format("YYYY/MM/DD");
 ```
 
-A:: =============================================
+###### ID1
 
+A:: =============================================  
 **Good:**
 
 ```javascript
 const currentDate = moment().format("YYYY/MM/DD");
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Use the same vocabulary for the same type of variable
+##### Use the same vocabulary for the same type of variable
 
 **Bad:**
 
@@ -36,17 +97,18 @@ getClientData();
 getCustomerRecord();
 ```
 
-A:: =============================================
+###### ID2
 
+A:: =============================================  
 **Good:**
 
 ```javascript
 getUser();
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Use searchable names
+##### Use searchable names
 
 We will read more code than we will ever write. It's important that the code we
 do write is readable and searchable. By _not_ naming variables that end up
@@ -63,8 +125,9 @@ can help identify unnamed constants.
 setTimeout(blastOff, 86400000);
 ```
 
-A:: =============================================
+###### ID3
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -74,9 +137,9 @@ const MILLISECONDS_PER_DAY = 60 * 60 * 24 * 1000; //86400000;
 setTimeout(blastOff, MILLISECONDS_PER_DAY);
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Use explanatory variables
+##### Use explanatory variables
 
 **Bad:**
 
@@ -89,8 +152,9 @@ saveCityZipCode(
 );
 ```
 
-A:: =============================================
+###### ID4
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -100,9 +164,9 @@ const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
 saveCityZipCode(city, zipCode);
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid Mental Mapping
+##### Avoid Mental Mapping
 
 Explicit is better than implicit.
 
@@ -121,8 +185,9 @@ locations.forEach(l => {
 });
 ```
 
-A:: =============================================
+###### ID5
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -137,9 +202,9 @@ locations.forEach(location => {
 });
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't add unneeded context
+##### Don't add unneeded context
 
 If your class/object name tells you something, don't repeat that in your
 variable name.
@@ -158,8 +223,9 @@ function paintCar(car, color) {
 }
 ```
 
-A:: =============================================
+###### ID6
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -174,9 +240,9 @@ function paintCar(car, color) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Use default parameters instead of short circuiting or conditionals
+##### Use default parameters instead of short circuiting or conditionals
 
 Default parameters are often cleaner than short circuiting. Be aware that if you
 use them, your function will only provide default values for `undefined`
@@ -192,8 +258,9 @@ function createMicrobrewery(name) {
 }
 ```
 
-A:: =============================================
+###### ID7
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -202,11 +269,11 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 }
 ```
 
-#### Chapter {REPLACECHAPTER} - **Functions**
+#### Chapter 2 - **Functions**
 
-Q:: =============================================
+Q:: =============================================  
 
-Function arguments (2 or fewer ideally)
+##### Function arguments (2 or fewer ideally)
 
 Limiting the amount of function parameters is incredibly important because it
 makes testing your function easier. Having more than three leads to a
@@ -247,8 +314,9 @@ createMenu("Foo", "Bar", "Baz", true);
 
 ```
 
-A:: =============================================
+###### ID8
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -264,9 +332,9 @@ createMenu({
 });
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Functions should do one thing
+##### Functions should do one thing
 
 This is by far the most important rule in software engineering. When functions
 do more than one thing, they are harder to compose, test, and reason about.
@@ -287,8 +355,9 @@ function emailClients(clients) {
 }
 ```
 
-A:: =============================================
+###### ID9
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -302,9 +371,9 @@ function isActiveClient(client) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Function names should say what they do
+##### Function names should say what they do
 
 **Bad:**
 
@@ -319,8 +388,9 @@ const date = new Date();
 addToDate(date, 1);
 ```
 
-A:: =============================================
+###### ID10
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -332,9 +402,9 @@ const date = new Date();
 addMonthToDate(1, date);
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Functions should only be one level of abstraction
+##### Functions should only be one level of abstraction
 
 When you have more than one level of abstraction your function is usually
 doing too much. Splitting up functions leads to reusability and easier
@@ -367,8 +437,9 @@ function parseBetterJSAlternative(code) {
 }
 ```
 
-A:: =============================================
+###### ID11
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -406,9 +477,9 @@ function parse(tokens) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Remove duplicate code
+##### Remove duplicate code
 
 Do your absolute best to avoid duplicate code. Duplicate code is bad because it
 means that there's more than one place to alter something if you need to change
@@ -465,8 +536,9 @@ function showManagerList(managers) {
 }
 ```
 
-A:: =============================================
+###### ID12
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -494,9 +566,9 @@ function showEmployeeList(employees) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Set default objects with Object.assign
+##### Set default objects with Object.assign
 
 **Bad:**
 
@@ -519,8 +591,9 @@ function createMenu(config) {
 createMenu(menuConfig);
 ```
 
-A:: =============================================
+###### ID13
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -549,9 +622,9 @@ function createMenu(config) {
 createMenu(menuConfig);
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't use flags as function parameters
+##### Don't use flags as function parameters
 
 Flags tell your user that this function does more than one thing. Functions should do one thing. Split out your functions if they are following different code paths based on a boolean.
 
@@ -567,8 +640,9 @@ function createFile(name, temp) {
 }
 ```
 
-A:: =============================================
+###### ID14
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -581,9 +655,9 @@ function createTempFile(name) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid Side Effects (part 1)
+##### Avoid Side Effects (part 1)
 
 A function produces a side effect if it does anything other than take a value in
 and return another value or values. A side effect could be writing to a file,
@@ -616,8 +690,9 @@ splitIntoFirstAndLastName();
 console.log(name); // ['Ryan', 'McDermott'];
 ```
 
-A:: =============================================
+###### ID15
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -632,9 +707,9 @@ console.log(name); // 'Ryan McDermott';
 console.log(newName); // ['Ryan', 'McDermott'];
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid Side Effects (part 2)
+##### Avoid Side Effects (part 2)
 
 In JavaScript, some values are unchangeable (immutable) and some are changeable 
 (mutable). Objects and arrays are two kinds of mutable values so it's important 
@@ -680,8 +755,9 @@ const addItemToCart = (cart, item) => {
 };
 ```
 
-A:: =============================================
+###### ID16
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -690,9 +766,9 @@ const addItemToCart = (cart, item) => {
 };
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't write to global functions
+##### Don't write to global functions
 
 Polluting globals is a bad practice in JavaScript because you could clash with another
 library and the user of your API would be none-the-wiser until they get an
@@ -713,8 +789,9 @@ Array.prototype.diff = function diff(comparisonArray) {
 };
 ```
 
-A:: =============================================
+###### ID17
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -726,9 +803,9 @@ class SuperArray extends Array {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Favor functional programming over imperative programming
+##### Favor functional programming over imperative programming
 
 JavaScript isn't a functional language in the way that Haskell is, but it has
 a functional flavor to it. Functional languages can be cleaner and easier to test.
@@ -763,8 +840,9 @@ for (let i = 0; i < programmerOutput.length; i++) {
 }
 ```
 
-A:: =============================================
+###### ID18
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -793,9 +871,9 @@ const totalOutput = programmerOutput.reduce(
 );
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Encapsulate conditionals
+##### Encapsulate conditionals
 
 **Bad:**
 
@@ -805,8 +883,9 @@ if (fsm.state === "fetching" && isEmpty(listNode)) {
 }
 ```
 
-A:: =============================================
+###### ID19
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -819,9 +898,9 @@ if (shouldShowSpinner(fsmInstance, listNodeInstance)) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid negative conditionals
+##### Avoid negative conditionals
 
 **Bad:**
 
@@ -835,8 +914,9 @@ if (!isDOMNodeNotPresent(node)) {
 }
 ```
 
-A:: =============================================
+###### ID20
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -849,9 +929,9 @@ if (isDOMNodePresent(node)) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid conditionals
+##### Avoid conditionals
 
 This seems like an impossible task. Upon first hearing this, most people say,
 "how am I supposed to do anything without an `if` statement?" The answer is that
@@ -880,8 +960,9 @@ class Airplane {
 }
 ```
 
-A:: =============================================
+###### ID21
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -911,9 +992,9 @@ class Cessna extends Airplane {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid type-checking (part 1)
+##### Avoid type-checking (part 1)
 
 JavaScript is untyped, which means your functions can take any type of argument.
 Sometimes you are bitten by this freedom and it becomes tempting to do
@@ -932,8 +1013,9 @@ function travelToTexas(vehicle) {
 }
 ```
 
-A:: =============================================
+###### ID22
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -942,9 +1024,9 @@ function travelToTexas(vehicle) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid type-checking (part 2)
+##### Avoid type-checking (part 2)
 
 If you are working with basic primitive values like strings and integers,
 and you can't use polymorphism but you still feel the need to type-check,
@@ -971,8 +1053,9 @@ function combine(val1, val2) {
 }
 ```
 
-A:: =============================================
+###### ID23
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -981,9 +1064,9 @@ function combine(val1, val2) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't over-optimize
+##### Don't over-optimize
 
 Modern browsers do a lot of optimization under-the-hood at runtime. A lot of
 times, if you are optimizing then you are just wasting your time. [There are good
@@ -1001,8 +1084,9 @@ for (let i = 0, len = list.length; i < len; i++) {
 }
 ```
 
-A:: =============================================
+###### ID24
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1011,9 +1095,9 @@ for (let i = 0; i < list.length; i++) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Remove dead code
+##### Remove dead code
 
 Dead code is just as bad as duplicate code. There's no reason to keep it in
 your codebase. If it's not being called, get rid of it! It will still be safe
@@ -1034,8 +1118,9 @@ const req = newRequestModule;
 inventoryTracker("apples", req, "www.inventory-awesome.io");
 ```
 
-A:: =============================================
+###### ID25
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1047,11 +1132,11 @@ const req = newRequestModule;
 inventoryTracker("apples", req, "www.inventory-awesome.io");
 ```
 
-#### Chapter {REPLACECHAPTER} - **Objects and Data Structures**
+#### Chapter 3 - **Objects and Data Structures**
 
-Q:: =============================================
+Q:: =============================================  
 
-Use getters and setters
+##### Use getters and setters
 
 Using getters and setters to access data on objects could be better than simply
 looking for a property on an object. "Why?" you might ask. Well, here's an
@@ -1081,8 +1166,9 @@ const account = makeBankAccount();
 account.balance = 100;
 ```
 
-A:: =============================================
+###### ID26
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1112,9 +1198,9 @@ const account = makeBankAccount();
 account.setBalance(100);
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Make objects have private members
+##### Make objects have private members
 
 This can be accomplished through closures (for ES5 and below).
 
@@ -1135,8 +1221,9 @@ delete employee.name;
 console.log(`Employee name: ${employee.getName()}`); // Employee name: undefined
 ```
 
-A:: =============================================
+###### ID27
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1154,11 +1241,11 @@ delete employee.name;
 console.log(`Employee name: ${employee.getName()}`); // Employee name: John Doe
 ```
 
-#### Chapter {REPLACECHAPTER} - **Classes**
+#### Chapter 4 - **Classes**
 
-Q:: =============================================
+Q:: =============================================  
 
-Prefer ES2015/ES6 classes over ES5 plain functions
+##### Prefer ES2015/ES6 classes over ES5 plain functions
 
 It's very difficult to get readable class inheritance, construction, and method
 definitions for classical ES5 classes. If you need inheritance (and be aware
@@ -1205,8 +1292,9 @@ Human.prototype.constructor = Human;
 Human.prototype.speak = function speak() {};
 ```
 
-A:: =============================================
+###### ID28
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1243,9 +1331,9 @@ class Human extends Mammal {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Use method chaining
+##### Use method chaining
 
 This pattern is very useful in JavaScript and you see it in many libraries such
 as jQuery and Lodash. It allows your code to be expressive, and less verbose.
@@ -1285,8 +1373,9 @@ car.setColor("pink");
 car.save();
 ```
 
-A:: =============================================
+###### ID29
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1325,9 +1414,9 @@ class Car {
 const car = new Car("Ford", "F-150", "red").setColor("pink").save();
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Prefer composition over inheritance
+##### Prefer composition over inheritance
 
 As stated famously in [_Design Patterns_](https://en.wikipedia.org/wiki/Design_Patterns) by the Gang of Four,
 you should prefer composition over inheritance where you can. There are lots of
@@ -1370,8 +1459,9 @@ class EmployeeTaxData extends Employee {
 }
 ```
 
-A:: =============================================
+###### ID30
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1397,11 +1487,11 @@ class Employee {
 }
 ```
 
-#### Chapter {REPLACECHAPTER} - **SOLID**
+#### Chapter 5 - **SOLID**
 
-Q:: =============================================
+Q:: =============================================  
 
-Single Responsibility Principle (SRP)
+##### Single Responsibility Principle (SRP)
 
 As stated in Clean Code, "There should never be more than one reason for a class
 to change". It's tempting to jam-pack a class with a lot of functionality, like
@@ -1432,8 +1522,9 @@ class UserSettings {
 }
 ```
 
-A:: =============================================
+###### ID31
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1461,9 +1552,9 @@ class UserSettings {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Open/Closed Principle (OCP)
+##### Open/Closed Principle (OCP)
 
 As stated by Bertrand Meyer, "software entities (classes, modules, functions,
 etc.) should be open for extension, but closed for modification." What does that
@@ -1514,8 +1605,9 @@ function makeHttpCall(url) {
 }
 ```
 
-A:: =============================================
+###### ID32
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1554,9 +1646,9 @@ class HttpRequester {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Liskov Substitution Principle (LSP)
+##### Liskov Substitution Principle (LSP)
 
 This is a scary term for a very simple concept. It's formally defined as "If S
 is a subtype of T, then objects of type T may be replaced with objects of type S
@@ -1626,8 +1718,9 @@ const rectangles = [new Rectangle(), new Rectangle(), new Square()];
 renderLargeRectangles(rectangles);
 ```
 
-A:: =============================================
+###### ID33
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1675,9 +1768,9 @@ const shapes = [new Rectangle(4, 5), new Rectangle(4, 5), new Square(5)];
 renderLargeShapes(shapes);
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Interface Segregation Principle (ISP)
+##### Interface Segregation Principle (ISP)
 
 JavaScript doesn't have interfaces so this principle doesn't apply as strictly
 as others. However, it's important and relevant even with JavaScript's lack of
@@ -1719,8 +1812,9 @@ const $ = new DOMTraverser({
 });
 ```
 
-A:: =============================================
+###### ID34
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1755,9 +1849,9 @@ const $ = new DOMTraverser({
 });
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Dependency Inversion Principle (DIP)
+##### Dependency Inversion Principle (DIP)
 
 This principle states two essential things:
 
@@ -1813,8 +1907,9 @@ const inventoryTracker = new InventoryTracker(["apples", "bananas"]);
 inventoryTracker.requestItems();
 ```
 
-A:: =============================================
+###### ID35
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1860,7 +1955,7 @@ const inventoryTracker = new InventoryTracker(
 inventoryTracker.requestItems();
 ```
 
-#### Chapter {REPLACECHAPTER} - **Testing**
+#### Chapter 6 - **Testing**
 
 Testing is more important than shipping. If you have no tests or an
 inadequate amount, then every time you ship code you won't be sure that you
@@ -1877,9 +1972,9 @@ Test Driven Development (TDD), that is great, but the main point is to just
 make sure you are reaching your coverage goals before launching any feature,
 or refactoring an existing one.
 
-Q:: =============================================
+Q:: =============================================  
 
-Single concept per test
+##### Single concept per test
 
 **Bad:**
 
@@ -1905,8 +2000,9 @@ describe("MomentJS", () => {
 });
 ```
 
-A:: =============================================
+###### ID36
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1933,11 +2029,11 @@ describe("MomentJS", () => {
 });
 ```
 
-#### Chapter {REPLACECHAPTER} - **Concurrency**
+#### Chapter 7 - **Concurrency**
 
-Q:: =============================================
+Q:: =============================================  
 
-Use Promises, not callbacks
+##### Use Promises, not callbacks
 
 Callbacks aren't clean, and they cause excessive amounts of nesting. With ES2015/ES6,
 Promises are a built-in global type. Use them!
@@ -1966,8 +2062,9 @@ get(
 );
 ```
 
-A:: =============================================
+###### ID37
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -1986,9 +2083,9 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
   });
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Async/Await are even cleaner than Promises
+##### Async/Await are even cleaner than Promises
 
 Promises are a very clean alternative to callbacks, but ES2017/ES8 brings async and await
 which offer an even cleaner solution. All you need is a function that is prefixed
@@ -2014,8 +2111,9 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
   });
 ```
 
-A:: =============================================
+###### ID38
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -2037,16 +2135,16 @@ async function getCleanCodeArticle() {
 getCleanCodeArticle()
 ```
 
-#### Chapter {REPLACECHAPTER} - **Error Handling**
+#### Chapter 8 - **Error Handling**
 
 Thrown errors are a good thing! They mean the runtime has successfully
 identified when something in your program has gone wrong and it's letting
 you know by stopping function execution on the current stack, killing the
 process (in Node), and notifying you in the console with a stack trace.
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't ignore caught errors
+##### Don't ignore caught errors
 
 Doing nothing with a caught error doesn't give you the ability to ever fix
 or react to said error. Logging the error to the console (`console.log`)
@@ -2065,8 +2163,9 @@ try {
 }
 ```
 
-A:: =============================================
+###### ID39
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -2083,9 +2182,9 @@ try {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't ignore rejected promises
+##### Don't ignore rejected promises
 
 For the same reason you shouldn't ignore caught errors
 from `try/catch`.
@@ -2102,8 +2201,9 @@ getdata()
   });
 ```
 
-A:: =============================================
+###### ID40
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -2122,7 +2222,7 @@ getdata()
   });
 ```
 
-#### Chapter {REPLACECHAPTER} - **Formatting**
+#### Chapter 9 - **Formatting**
 
 Formatting is subjective. Like many rules herein, there is no hard and fast
 rule that you must follow. The main point is DO NOT ARGUE over formatting.
@@ -2133,9 +2233,9 @@ For things that don't fall under the purview of automatic formatting
 (indentation, tabs vs. spaces, double vs. single quotes, etc.) look here
 for some guidance.
 
-Q:: =============================================
+Q:: =============================================  
 
-Use consistent capitalization
+##### Use consistent capitalization
 
 JavaScript is untyped, so capitalization tells you a lot about your variables,
 functions, etc. These rules are subjective, so your team can choose whatever
@@ -2157,8 +2257,9 @@ class animal {}
 class Alpaca {}
 ```
 
-A:: =============================================
+###### ID41
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -2175,9 +2276,9 @@ class Animal {}
 class Alpaca {}
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Function callers and callees should be close
+##### Function callers and callees should be close
 
 If a function calls another, keep those functions vertically close in the source
 file. Ideally, keep the caller right above the callee. We tend to read code from
@@ -2223,8 +2324,9 @@ const review = new PerformanceReview(employee);
 review.perfReview();
 ```
 
-A:: =============================================
+###### ID42
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -2265,11 +2367,11 @@ const review = new PerformanceReview(employee);
 review.perfReview();
 ```
 
-#### Chapter {REPLACECHAPTER} - **Comments**
+#### Chapter 10 - **Comments**
 
-Q:: =============================================
+Q:: =============================================  
 
-Only comment things that have business logic complexity.
+##### Only comment things that have business logic complexity.
 
 Comments are an apology, not a requirement. Good code _mostly_ documents itself.
 
@@ -2295,8 +2397,9 @@ function hashIt(data) {
 }
 ```
 
-A:: =============================================
+###### ID43
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -2314,9 +2417,9 @@ function hashIt(data) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't leave commented out code in your codebase
+##### Don't leave commented out code in your codebase
 
 Version control exists for a reason. Leave old code in your history.
 
@@ -2329,17 +2432,18 @@ doStuff();
 // doSoMuchStuff();
 ```
 
-A:: =============================================
+###### ID44
 
+A:: =============================================  
 **Good:**
 
 ```javascript
 doStuff();
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Don't have journal comments
+##### Don't have journal comments
 
 Remember, use version control! There's no need for dead code, commented code,
 and especially journal comments. Use `git log` to get history!
@@ -2358,8 +2462,9 @@ function combine(a, b) {
 }
 ```
 
-A:: =============================================
+###### ID45
 
+A:: =============================================  
 **Good:**
 
 ```javascript
@@ -2368,9 +2473,9 @@ function combine(a, b) {
 }
 ```
 
-Q:: =============================================
+Q:: =============================================  
 
-Avoid positional markers
+##### Avoid positional markers
 
 They usually just add noise. Let the functions and variable names along with the
 proper indentation and formatting give the visual structure to your code.
@@ -2394,8 +2499,9 @@ const actions = function() {
 };
 ```
 
-A:: =============================================
+###### ID46
 
+A:: =============================================  
 **Good:**
 
 ```javascript
