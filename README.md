@@ -1,3 +1,74 @@
+# ✨ Introduction
+
+Greetings, code wanderers! Welcome to this dazzling deck of [JavaScript Clean Code principles](https://github.com/ryanmcdermott/clean-code-javascript), originally crafted by the coding maestro [Ryan McDermott](https://github.com/ryanmcdermott). A round of applause 👏 for Ryan and [the brilliant minds (contributors)](https://github.com/ryanmcdermott/clean-code-javascript/graphs/contributors) who've sprinkled their coding magic to improve this repository.
+
+### Anki Adaptation Sorcery 🧙‍♂️
+
+A mystical conversion preserves the essence of the original principles, with just a few formatting runes gone awry. Fear not, for though a rogue [spell (script)](https://github.com/envico801/obsidian-to-anki-card-converter) may have left some indentations crooked, the wisdom within remains untouched!
+
+_(translation) - The Anki version's got the same content as the original, just with some wonky formatting._
+
+**If the ankiweb links appear with this message** `«This shared item is missing or currently unavailable.»` **it is because I am updating the description of the page or the complete deck, if this is the case you will have to wait 24 hours until the page is updated. To have the latest updates (shown in the changelog) you need to re-download the deck.**
+
+But wait, there’s more to explore on your journey:
+
+- 🔮 **JavaScript Interview Questions & Answers** – _List of 500 JavaScript Interview Questions_
+
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/1035695037) – [GitHub Repository](https://github.com/envico801/javascript-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/javascript-interview-questions/master/anki/Javascript__Interview__SJIQ%20-%20Javascript%20interview%20questions%20-%20sudheer%20jonna.apkg)
+
+- ⚛️ **React Interview Questions & Answers** – _List of top 300 ReactJS Interview Questions & Answers_
+
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/1098877193) – [GitHub Repository](https://github.com/envico801/reactjs-interview-questions) - [Direct download (github)](https://raw.githubusercontent.com/envico801/reactjs-interview-questions/master/anki/Javascript__Interview__SRIQ%20-%20Reactjs%20interview%20questions%20-%20sudheer%20jonna.apkg)
+
+- 🛠️ **Javascript Project Guidelines & Best Practices** – _A set of best practices for JavaScript projects_
+
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/1300509274) – [GitHub Repository](https://github.com/envico801/project-guidelines) – [Direct download (github)](https://github.com/envico801/project-guidelines/raw/refs/heads/master/anki/Javascript__Coding%20best%20practices__EPG%20-%20Project%20guidelines%20-%20elsewhen.apkg)
+
+- 🧹 **JavaScript Clean Code Principles** – _🛁 Clean Code concepts adapted for JavaScript_
+
+    [Ankiweb (deck)](https://ankiweb.net/shared/info/297764056) – [GitHub Repository](https://github.com/envico801/clean-code-javascript) - [Direct download (github)](https://github.com/envico801/clean-code-javascript/raw/refs/heads/master/anki/Javascript__Coding%20best%20practices__RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott.apkg)
+
+The magical journey never ends! Dive into these sacred tomes to unlock new realms of coding prowess.
+
+### 🧪 Quest for Perfection
+
+Some might say perfection is a journey, not a destination. In our case, these principles could be jazzed up for easier learning. Picture this: the first principle transformed into a symphony of 2 or 3 sub-questions. Alas, as the harbinger of fresh changes, keeping track of when to split or modify questions is akin to herding caffeinated cats. 🐱
+
+_(translation) - These principles could use some tweaking to make them easier to learn, such as breaking them down into smaller questions._
+
+## 💖 Support the Sorcerer/s
+
+Extend your digital love to Ryan – visit [his GitHub profile](https://github.com/ryanmcdermott)
+
+## 🆘 Need a Spell Breaker?
+
+Seeking refuge from the digital labyrinth, weary traveler? Fear not, for I am your trusty guide through the treacherous terrain of bugs and glitches. Arm yourself with the following:
+
+* **[Issue Tracker (Preferred)](https://github.com/envico801/clean-code-javascript/issues):** The sanctified ground for reporting bugs 🐛 and seeking support. The path less traveled but infinitely more efficient.
+* **Carrier Pigeon (Email):** For those who prefer a more personal touch, send a message to [envico801@gmail.com](mailto:envico801@gmail.com?subject=Support%20request%20concerning%20'RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott'&body=Please%20describe%20your%20request%20here%20while%20providing%20as%20many%20details%20as%20possible%20(e.g.%20exact%20instructions%20to%20reproduce%20the%20problem,%20screenshots,%20info%20about%20your%20Anki%20version%20and%20operating%20system,%20etc.)). I promise, the pigeons 🕊️ are well-fed and ready to deliver your digital scrolls.
+
+Feeling chatty? Constructive feedback and suggestions are the secret sauce – sprinkle them generously! 🌟
+
+## 🎭 Usage Tips
+
+In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
+
+<p align="center">
+    <a href="https://github.com/user-attachments/assets/6435f157-80b6-4b18-8cb9-3f4590d67b40" target="_blank">
+        <img src="https://github.com/user-attachments/assets/6435f157-80b6-4b18-8cb9-3f4590d67b40" alt="Card example 1" style="height: 200px;">
+    </a>
+    <a href="https://github.com/user-attachments/assets/93d48794-e699-4d6b-83d1-c112a3608cb6" target="_blank">
+        <img src="https://github.com/user-attachments/assets/93d48794-e699-4d6b-83d1-c112a3608cb6" alt="Card example 2" style="height: 200px;">
+    </a>
+    <a href="https://github.com/user-attachments/assets/0d94bf4c-e616-4491-a306-eb32c0ea1f6c" target="_blank">
+        <img src="https://github.com/user-attachments/assets/0d94bf4c-e616-4491-a306-eb32c0ea1f6c" alt="Card example 3" style="height: 200px;">
+    </a>
+</p>
+
+## README.md of the original repository below
+
+---
+
 # clean-code-javascript
 
 ## Table of Contents
