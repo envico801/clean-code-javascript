@@ -2,9 +2,7 @@
 
 ### Don't add unneeded context
 
-If your class/object name tells you something, don't repeat that in your
-
-variable name.
+If your class/object name tells you something, don't repeat that in your variable name.
 
 **Bad:**
 
@@ -54,4 +52,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

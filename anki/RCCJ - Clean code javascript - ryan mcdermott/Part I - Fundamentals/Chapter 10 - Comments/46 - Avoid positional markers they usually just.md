@@ -2,9 +2,7 @@
 
 ### Avoid positional markers
 
-They usually just add noise. Let the functions and variable names along with the
-
-proper indentation and formatting give the visual structure to your code.
+They usually just add noise. Let the functions and variable names along with the proper indentation and formatting give the visual structure to your code.
 
 **Bad:**
 
@@ -58,4 +56,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

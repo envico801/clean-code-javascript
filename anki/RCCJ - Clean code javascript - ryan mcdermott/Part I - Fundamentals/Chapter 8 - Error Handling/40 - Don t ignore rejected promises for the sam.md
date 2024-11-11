@@ -2,9 +2,7 @@
 
 ### Don't ignore rejected promises
 
-For the same reason you shouldn't ignore caught errors
-
-from `try/catch`.
+For the same reason you shouldn't ignore caught errors from `try/catch`.
 
 **Bad:**
 
@@ -58,4 +56,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

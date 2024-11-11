@@ -2,13 +2,7 @@
 
 ### Prefer ES2015/ES6 classes over ES5 plain functions
 
-It's very difficult to get readable class inheritance, construction, and method
-
-definitions for classical ES5 classes. If you need inheritance (and be aware
-
-that you might not), then prefer ES2015/ES6 classes. However, prefer small functions over
-
-classes until you find yourself needing larger and more complex objects.
+It's very difficult to get readable class inheritance, construction, and method definitions for classical ES5 classes. If you need inheritance (and be aware that you might not), then prefer ES2015/ES6 classes. However, prefer small functions over classes until you find yourself needing larger and more complex objects.
 
 **Bad:**
 
@@ -95,4 +89,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

@@ -2,11 +2,7 @@
 
 ### Favor functional programming over imperative programming
 
-JavaScript isn't a functional language in the way that Haskell is, but it has
-
-a functional flavor to it. Functional languages can be cleaner and easier to test.
-
-Favor this style of programming when you can.
+JavaScript isn't a functional language in the way that Haskell is, but it has a functional flavor to it. Functional languages can be cleaner and easier to test. Favor this style of programming when you can.
 
 **Bad:**
 
@@ -84,4 +80,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

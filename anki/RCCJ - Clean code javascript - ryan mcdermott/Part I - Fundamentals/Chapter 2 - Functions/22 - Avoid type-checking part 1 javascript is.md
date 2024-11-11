@@ -2,13 +2,7 @@
 
 ### Avoid type-checking (part 1)
 
-JavaScript is untyped, which means your functions can take any type of argument.
-
-Sometimes you are bitten by this freedom and it becomes tempting to do
-
-type-checking in your functions. There are many ways to avoid having to do this.
-
-The first thing to consider is consistent APIs.
+JavaScript is untyped, which means your functions can take any type of argument. Sometimes you are bitten by this freedom and it becomes tempting to do type-checking in your functions. There are many ways to avoid having to do this. The first thing to consider is consistent APIs.
 
 **Bad:**
 
@@ -52,4 +46,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

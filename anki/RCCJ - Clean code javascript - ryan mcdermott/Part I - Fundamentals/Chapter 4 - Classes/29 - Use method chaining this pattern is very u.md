@@ -2,15 +2,7 @@
 
 ### Use method chaining
 
-This pattern is very useful in JavaScript and you see it in many libraries such
-
-as jQuery and Lodash. It allows your code to be expressive, and less verbose.
-
-For that reason, I say, use method chaining and take a look at how clean your code
-
-will be. In your class functions, simply return `this` at the end of every function,
-
-and you can chain further class methods onto it.
+This pattern is very useful in JavaScript and you see it in many libraries such as jQuery and Lodash. It allows your code to be expressive, and less verbose. For that reason, I say, use method chaining and take a look at how clean your code will be. In your class functions, simply return `this` at the end of every function, and you can chain further class methods onto it.
 
 **Bad:**
 
@@ -94,4 +86,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

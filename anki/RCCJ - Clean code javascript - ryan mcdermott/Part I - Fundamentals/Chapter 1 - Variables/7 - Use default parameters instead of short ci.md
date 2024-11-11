@@ -2,13 +2,7 @@
 
 ### Use default parameters instead of short circuiting or conditionals
 
-Default parameters are often cleaner than short circuiting. Be aware that if you
-
-use them, your function will only provide default values for `undefined`
-
-arguments. Other "falsy" values such as `''`, `""`, `false`, `null`, `0`, and
-
-`NaN`, will not be replaced by a default value.
+Default parameters are often cleaner than short circuiting. Be aware that if you use them, your function will only provide default values for `undefined` arguments. Other "falsy" values such as `''`, `""`, `false`, `null`, `0`, and `NaN`, will not be replaced by a default value.
 
 **Bad:**
 
@@ -49,4 +43,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store

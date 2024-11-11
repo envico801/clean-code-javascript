@@ -2,9 +2,7 @@
 
 ### Use Promises, not callbacks
 
-Callbacks aren't clean, and they cause excessive amounts of nesting. With ES2015/ES6,
-
-Promises are a built-in global type. Use them!
+Callbacks aren't clean, and they cause excessive amounts of nesting. With ES2015/ES6, Promises are a built-in global type. Use them!
 
 **Bad:**
 
@@ -68,4 +66,5 @@ Related:
 ```dataview
 where file.name = this.file.name
 ```
+
 QUESTION STATUS: Safe to store
