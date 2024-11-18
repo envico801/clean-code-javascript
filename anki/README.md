@@ -68,9 +68,9 @@
 
 Q:: =============================================  
 
-##### Use meaningful and pronounceable variable names
+##### Are your variable names meaningful and pronounceable?  
 
-When naming variables, use clear, descriptive names that explain their purpose. Avoid abbreviations and cryptic shorthand that might confuse other developers.
+When naming variables, use clear, descriptive names that explain their purpose. Avoid abbreviations and cryptic shorthand that might confuse other developers.  
 
 **Bad:**
 ```javascript
@@ -89,9 +89,10 @@ const currentDate = moment().format("YYYY/MM/DD");
 
 Q:: =============================================  
 
-##### Use the same vocabulary for the same type of variable
+##### Are you using the same vocabulary for the same type of variable?  
 
-When referring to the same type of data or operation, maintain consistency in your naming conventions throughout your codebase. This reduces cognitive load and makes the code more predictable.
+When referring to the same type of data or operation, maintain consistency in your naming conventions throughout your codebase. This reduces cognitive load and makes the code more predictable.  
+
 
 **Bad:**
 ```javascript
@@ -112,7 +113,7 @@ getUser();
 
 Q:: =============================================  
 
-##### Use searchable names
+##### Are your variable names easily searchable?  
 
 We will read more code than we will ever write. It's important that the code we do write is readable and searchable. By _not_ naming variables that end up being meaningful for understanding our program, we hurt our readers. Make your names searchable. Tools like [buddy.js](https://github.com/danielstjules/buddy.js) and [ESLint](https://github.com/eslint/eslint/blob/660e0918933e6e7fede26bc675a0763a6b357c94/docs/rules/no-magic-numbers.md) can help identify unnamed constants.
 
@@ -137,9 +138,9 @@ setTimeout(blastOff, MILLISECONDS_PER_DAY);
 
 Q:: =============================================  
 
-##### Use explanatory variables
+##### Are you using explanatory variables to simplify complex expressions?  
 
-Break down complex expressions into smaller, well-named parts. This makes the code easier to understand and maintain by making each step's purpose clear.
+Break down complex expressions into smaller, well-named parts. This makes the code easier to understand and maintain by making each step's purpose clear.  
 
 **Bad:**
 ```javascript
@@ -163,9 +164,9 @@ saveCityZipCode(city, zipCode);
 
 Q:: =============================================  
 
-##### Avoid Mental Mapping
+##### Are you avoiding mental mapping in your code?  
 
-Don't force readers to translate between different contexts. Using single-letter variables or abbreviated names requires the reader to mentally map these to their actual meaning.
+Don't force readers to translate between different contexts. Using single-letter variables or abbreviated names requires the reader to mentally map these to their actual meaning.  
 
 **Bad:**
 ```javascript
@@ -201,9 +202,9 @@ locations.forEach((location) => {
 
 Q:: =============================================  
 
-##### Don't add unneeded context
+##### Are you avoiding unneeded context in your names?  
 
-When the context is already clear from the class or object name, don't repeat it in the property names. This creates unnecessary verbosity and redundancy.
+When the context is already clear from the class or object name, don't repeat it in the property names. This creates unnecessary verbosity and redundancy.  
 
 **Bad:**
 ```javascript
@@ -238,9 +239,9 @@ function paintCar(car, color) {
 
 Q:: =============================================  
 
-##### Use default parameters instead of short-circuiting or conditionals
+##### Are you using default parameters instead of short-circuiting or conditionals?  
 
-Default parameters provide a cleaner way to handle missing values in function parameters. They make the intended default value explicit in the function signature.
+Default parameters provide a cleaner way to handle missing values in function parameters. They make the intended default value explicit in the function signature.  
 
 **Reference**:
 
@@ -270,9 +271,9 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 
 Q:: =============================================  
 
-##### Function arguments (2 or fewer ideally)
+##### Do your functions have two or fewer arguments?  
 
-Having too many function parameters makes your code harder to test and maintain. Each additional parameter exponentially increases the number of test cases needed.
+Having too many function parameters makes your code harder to test and maintain. Each additional parameter exponentially increases the number of test cases needed.  
 
 **Reference**:
 
@@ -308,9 +309,9 @@ createMenu({
 
 Q:: =============================================  
 
-##### Functions should do one thing
+##### Does each function do only one thing?  
 
-A fundamental principle of clean code is that functions should have a single responsibility. This makes them easier to understand, test, and maintain.
+A fundamental principle of clean code is that functions should have a single responsibility. This makes them easier to understand, test, and maintain.  
 
 **Reference**:
 
@@ -347,9 +348,9 @@ function isActiveClient(client) {
 
 Q:: =============================================  
 
-##### Function names should say what they do
+##### Does your function name clearly describe its purpose?  
 
-Function names should be verbs that clearly describe the action being performed. Avoid vague or ambiguous names that don't convey the function's purpose.
+Function names should be verbs that clearly describe the action being performed. Avoid vague or ambiguous names that don't convey the function's purpose.  
 
 **Bad:**
 ```javascript
@@ -380,9 +381,9 @@ addMonthToDate(1, date);
 
 Q:: =============================================  
 
-##### Functions should only be one level of abstraction
+##### Should functions operate at only one level of abstraction?  
 
-Each function should work at a single level of abstraction. This means all operations within the function should be at a similar conceptual level, making the code easier to understand and maintain.
+Each function should work at a single level of abstraction. This means all operations within the function should be at a similar conceptual level, making the code easier to understand and maintain.  
 
 **Bad:**
 ```javascript
@@ -453,9 +454,9 @@ function parse(tokens) {
 
 Q:: =============================================  
 
-##### Remove duplicate code
+##### Have you removed duplicate code?  
 
-Code duplication is one of the biggest enemies of maintainable software. When code is duplicated, changes need to be made in multiple places, increasing the chance of errors and making maintenance more difficult.
+Code duplication is one of the biggest enemies of maintainable software. When code is duplicated, changes need to be made in multiple places, increasing the chance of errors and making maintenance more difficult.  
 
 **Reference**:
 
@@ -527,9 +528,9 @@ function showEmployeeList(employees) {
 
 Q:: =============================================  
 
-##### Set default objects with Object.assign
+##### Are you setting default objects with `Object.assign`?  
 
-When working with objects that need default values, using Object.assign or the spread operator provides a cleaner and more maintainable way to set default properties compared to manual property assignments.
+When working with objects that need default values, using `Object.assign` or the spread operator provides a cleaner and more maintainable way to set default properties compared to manual property assignments.  
 
 **Bad:**
 ```javascript
@@ -584,9 +585,9 @@ createMenu(menuConfig);
 
 Q:: =============================================  
 
-##### Don't use flags as function parameters
+##### Are you avoiding flags as function parameters?  
 
-Boolean flags in function parameters often indicate that a function is doing too much. When a function's behavior changes based on a boolean parameter, it's violating the Single Responsibility Principle.
+Boolean flags in function parameters often indicate that a function is doing too much. When a function's behavior changes based on a boolean parameter, it's violating the Single Responsibility Principle.  
 
 **Bad:**
 ```javascript
@@ -617,9 +618,9 @@ function createTempFile(name) {
 
 Q:: =============================================  
 
-##### Avoid Side Effects (part 1)
+##### Are you avoiding side effects in your functions? (Part 1)  
 
-Side effects are changes that a function makes to any state outside its own scope. These can include modifying global variables, changing input parameters, or affecting the environment. They make code harder to test and can lead to unexpected bugs.
+Side effects are changes that a function makes to any state outside its own scope. These can include modifying global variables, changing input parameters, or affecting the environment. They make code harder to test and can lead to unexpected bugs.  
 
 **Reference**:
 
@@ -660,9 +661,9 @@ console.log(newName); // ['Ryan', 'McDermott'];
 
 Q:: =============================================  
 
-##### Avoid Side Effects (part 2)
+##### Are you preventing unintended side effects in shared data structures? (Part 2)  
 
-Mutable data structures can lead to unintended side effects when shared across different parts of your application. When modifying objects or arrays that are passed as parameters, you risk affecting code elsewhere that uses those same references.
+Mutable data structures can lead to unintended side effects when shared across different parts of your application. When modifying objects or arrays that are passed as parameters, you risk affecting code elsewhere that uses those same references.  
 
 **Reference**:
 
@@ -689,9 +690,9 @@ const addItemToCart = (cart, item) => {
 
 Q:: =============================================  
 
-##### Don't write to global functions
+##### Are you avoiding writing to global functions?  
 
-Extending built-in objects through their prototypes (like Array, String, etc.) can lead to naming conflicts and unexpected behavior in your application, especially when multiple libraries are involved.
+Extending built-in objects through their prototypes (like Array, String, etc.) can lead to naming conflicts and unexpected behavior in your application, especially when multiple libraries are involved.  
 
 **Reference**:
 
@@ -722,9 +723,9 @@ class SuperArray extends Array {
 
 Q:: =============================================  
 
-##### Favor functional programming over imperative programming
+##### Are you favoring functional programming over imperative programming?  
 
-Functional programming leads to more predictable code by avoiding state changes and side effects. It focuses on what should be computed rather than how it should be computed.
+Functional programming leads to more predictable code by avoiding state changes and side effects. It focuses on what should be computed rather than how it should be computed.  
 
 **Bad:**
 ```javascript
@@ -785,9 +786,9 @@ const totalOutput = programmerOutput.reduce((totalLines, output) => totalLines +
 
 Q:: =============================================  
 
-##### Encapsulate conditionals
+##### Are you encapsulating conditionals for better readability?  
 
-Complex conditional statements can make code harder to read and understand. Extracting conditions into well-named functions improves code readability and reusability.
+Complex conditional statements can make code harder to read and understand. Extracting conditions into well-named functions improves code readability and reusability.  
 
 **Bad:**
 ```javascript
@@ -814,9 +815,9 @@ if (shouldShowSpinner(fsmInstance, listNodeInstance)) {
 
 Q:: =============================================  
 
-##### Avoid negative conditionals
+##### Are you avoiding negative conditionals?  
 
-Negative conditionals are harder to understand at a glance because they require additional mental processing to understand what the code is not doing rather than what it is doing.
+Negative conditionals are harder to understand at a glance because they require additional mental processing to understand what the code is not doing rather than what it is doing.  
 
 **Bad:**
 ```javascript
@@ -847,9 +848,9 @@ if (isDOMNodePresent(node)) {
 
 Q:: =============================================  
 
-##### Avoid conditionals
+##### Are you reducing conditionals in your code?  
 
-Understanding why and how to avoid excessive conditionals is crucial for writing maintainable code. While it may seem impossible to eliminate 'if' statements entirely, polymorphism offers a powerful alternative that better adheres to the Single Responsibility Principle.
+Understanding why and how to avoid excessive conditionals is crucial for writing maintainable code. While it may seem impossible to eliminate 'if' statements entirely, polymorphism offers a powerful alternative that better adheres to the Single Responsibility Principle.  
 
 Key benefits of avoiding conditionals through polymorphism:
 - Better adherence to Single Responsibility Principle
@@ -909,9 +910,9 @@ class Cessna extends Airplane {
 
 Q:: =============================================  
 
-##### Avoid type-checking (part 1)
+##### Are you avoiding type-checking in your code? (Part 1)  
 
-Type checking in JavaScript often indicates a design that could be improved through better abstraction and consistent interfaces. Instead of checking types, design your objects to support a common interface.
+Type checking in JavaScript often indicates a design that could be improved through better abstraction and consistent interfaces. Instead of checking types, design your objects to support a common interface.  
 
 Key principles:
 - Use consistent interfaces across related objects
@@ -943,9 +944,9 @@ function travelToTexas(vehicle) {
 
 Q:: =============================================  
 
-##### Avoid type-checking (part 2)
+##### Are you avoiding type-checking with primitive types? (Part 2)  
 
-Type checking in JavaScript using primitive types often leads to overly complex and hard-to-maintain code. While type safety is important, manual type checking in JavaScript isn't the best approach. TypeScript provides a more robust solution by adding static typing capabilities.
+Type checking in JavaScript using primitive types often leads to overly complex and hard-to-maintain code. While type safety is important, manual type checking in JavaScript isn't the best approach. TypeScript provides a more robust solution by adding static typing capabilities.  
 
 Key benefits of using TypeScript over manual type checking:
 - Static type checking at compile time
@@ -988,9 +989,9 @@ function combine(val1: string | number, val2: string | number): string | number 
 
 Q:: =============================================  
 
-##### Don't over-optimize
+##### Are you avoiding premature optimization?  
 
-Premature optimization can lead to harder-to-maintain code without providing meaningful performance benefits. Modern JavaScript engines are highly sophisticated and handle many optimizations automatically.
+Premature optimization can lead to harder-to-maintain code without providing meaningful performance benefits. Modern JavaScript engines are highly sophisticated and handle many optimizations automatically.  
 
 Key principles:
 - Trust the JavaScript engine's built-in optimizations
@@ -1025,9 +1026,9 @@ for (let i = 0; i < list.length; i++) {
 
 Q:: =============================================  
 
-##### Remove dead code
+##### Have you removed dead code from your codebase?  
 
-Dead code is code that's no longer used but remains in the codebase. It creates confusion, increases maintenance burden, and can lead to bugs. Version control systems like Git already maintain your code history, making it safe to remove unused code.
+Dead code is code that's no longer used but remains in the codebase. It creates confusion, increases maintenance burden, and can lead to bugs. Version control systems like Git already maintain your code history, making it safe to remove unused code.  
 
 Key reasons to remove dead code:
 - Reduces cognitive load when reading code
@@ -1068,9 +1069,9 @@ inventoryTracker("apples", req, "www.inventory-awesome.io");
 
 Q:: =============================================  
 
-##### Use getters and setters
+##### Are you using getters and setters effectively?  
 
-Getters and setters provide a way to control access to object properties, enabling better encapsulation and more flexible property management. They allow you to add validation, logging, or other behaviors without changing the interface.
+Getters and setters provide a way to control access to object properties, enabling better encapsulation and more flexible property management. They allow you to add validation, logging, or other behaviors without changing the interface.  
 
 Key benefits of getters and setters:
 - Enhanced encapsulation
@@ -1133,9 +1134,9 @@ account.setBalance(100);
 
 Q:: =============================================  
 
-##### Make objects have private members
+##### Are your object members private?  
 
-Privacy in objects helps maintain encapsulation and prevents unauthorized access to internal state. While JavaScript didn't have built-in privacy features before ES2019, we can achieve privacy through closures.
+Privacy in objects helps maintain encapsulation and prevents unauthorized access to internal state. While JavaScript didn't have built-in privacy features before ES2019, we can achieve privacy through closures.  
 
 Key benefits of private members:
 - Better encapsulation
@@ -1186,9 +1187,9 @@ console.log(`Employee name: ${employee.getName()}`); // Employee name: John Doe
 
 Q:: =============================================  
 
-##### Prefer ES2015/ES6 classes over ES5 plain functions
+##### Are you preferring ES2015/ES6 classes over ES5 functions?  
 
-ES2015/ES6 classes provide a clearer, more intuitive syntax for object-oriented programming in JavaScript compared to the ES5 prototype-based approach. They make inheritance patterns more readable and reduce boilerplate code.
+ES2015/ES6 classes provide a clearer, more intuitive syntax for object-oriented programming in JavaScript compared to the ES5 prototype-based approach. They make inheritance patterns more readable and reduce boilerplate code.  
 
 Key benefits of ES6 classes:
 - Clearer syntax for OOP concepts
@@ -1276,9 +1277,9 @@ class Human extends Mammal {
 
 Q:: =============================================  
 
-##### Use method chaining
+##### Are you using method chaining for fluent interfaces?  
 
-Method chaining is a pattern that allows multiple methods to be called in a single statement, making code more fluent and expressive. This pattern is commonly seen in libraries like jQuery and Lodash.
+Method chaining is a pattern that allows multiple methods to be called in a single statement, making code more fluent and expressive. This pattern is commonly seen in libraries like jQuery and Lodash.  
 
 Key benefits of method chaining:
 - More readable and expressive code
@@ -1360,9 +1361,9 @@ const car = new Car("Ford", "F-150", "red")
 
 Q:: =============================================  
 
-##### Prefer composition to inheritance
+##### Are you favoring composition over inheritance?  
 
-Composition and inheritance are two fundamental approaches to code reuse in object-oriented programming. While inheritance is powerful, composition often provides more flexibility and looser coupling between components.
+Composition and inheritance are two fundamental approaches to code reuse in object-oriented programming. While inheritance is powerful, composition often provides more flexibility and looser coupling between components.  
 
 Key reasons to prefer composition:
 - More flexible design
@@ -1438,9 +1439,9 @@ This approach clearly shows that an Employee has tax data rather than incorrectl
 
 Q:: =============================================  
 
-##### Single Responsibility Principle (SRP)
+##### Are you following the Single Responsibility Principle (SRP)?  
 
-The Single Responsibility Principle states that a class should have only one reason to change. This means each class should focus on doing one specific thing well, rather than trying to handle multiple responsibilities. This makes code more maintainable, testable, and easier to understand.
+The Single Responsibility Principle states that a class should have only one reason to change. This means each class should focus on doing one specific thing well, rather than trying to handle multiple responsibilities. This makes code more maintainable, testable, and easier to understand.  
 
 **Bad:**
 ```javascript
@@ -1494,9 +1495,9 @@ class UserSettings {
 
 Q:: =============================================  
 
-##### Open/Closed Principle (OCP)
+##### Are you adhering to the Open/Closed Principle (OCP)?  
 
-The Open/Closed Principle states that software entities should be open for extension but closed for modification. This means you should be able to add new functionality without changing existing code, typically achieved through inheritance and polymorphism.
+The Open/Closed Principle states that software entities should be open for extension but closed for modification. This means you should be able to add new functionality without changing existing code, typically achieved through inheritance and polymorphism.  
 
 **Bad:**
 ```javascript
@@ -1585,9 +1586,9 @@ class HttpRequester {
 
 Q:: =============================================  
 
-##### Liskov Substitution Principle (LSP)
+##### Are you following the Liskov Substitution Principle (LSP)?  
 
-The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application. In simpler terms, child classes must be able to do everything their parent class can do.
+The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application. In simpler terms, child classes must be able to do everything their parent class can do.  
 
 **Reference**:
 
@@ -1701,9 +1702,9 @@ renderLargeShapes(shapes);
 
 Q:: =============================================  
 
-##### Interface Segregation Principle (ISP)
+##### Are you adhering to the Interface Segregation Principle (ISP)?  
 
-The Interface Segregation Principle states that clients should not be forced to depend on interfaces they don't use. In JavaScript, where interfaces are implicit, this means classes shouldn't be forced to implement methods they don't need.
+The Interface Segregation Principle states that clients should not be forced to depend on interfaces they don't use. In JavaScript, where interfaces are implicit, this means classes shouldn't be forced to implement methods they don't need.  
 
 **Reference**:
 
@@ -1774,9 +1775,9 @@ const $ = new DOMTraverser({
 
 Q:: =============================================  
 
-##### Dependency Inversion Principle (DIP)
+##### Are you applying the Dependency Inversion Principle (DIP)?  
 
-The Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. This promotes loose coupling and makes the code more flexible and easier to modify.
+The Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. This promotes loose coupling and makes the code more flexible and easier to modify.  
 
 **Reference**:
 
@@ -1873,9 +1874,9 @@ There's no excuse to not write tests. There are [plenty of good JS test framewor
 
 Q:: =============================================  
 
-##### Single concept per test
+##### Are your tests focused on a single concept?  
 
-Tests should be clear, focused, and test one specific concept or behavior. This makes tests easier to maintain, debug, and understand when they fail. Each test should tell a story about a specific behavior of your code.
+Tests should be clear, focused, and test one specific concept or behavior. This makes tests easier to maintain, debug, and understand when they fail. Each test should tell a story about a specific behavior of your code.  
 
 **Bad:**
 ```javascript
@@ -1934,9 +1935,9 @@ describe("MomentJS", () => {
 
 Q:: =============================================  
 
-##### Use Promises, not callbacks
+##### Are you using Promises instead of callbacks?  
 
-Promises provide a cleaner way to handle asynchronous operations compared to callbacks. They help avoid "callback hell" (deeply nested callbacks) and provide better error handling mechanisms. Promises make asynchronous code more readable and maintainable.
+Promises provide a cleaner way to handle asynchronous operations compared to callbacks. They help avoid "callback hell" (deeply nested callbacks) and provide better error-handling mechanisms. Promises make asynchronous code more readable and maintainable.  
 
 **Bad:**
 ```javascript
@@ -1982,9 +1983,9 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
 
 Q:: =============================================  
 
-##### Async/Await are even cleaner than Promises
+##### Are you using Async/Await for even cleaner code?  
 
-Async/await is a modern JavaScript feature that makes asynchronous code look and behave more like synchronous code. It provides the best readability while maintaining all the benefits of Promises, making code easier to understand and maintain.
+Async/await is a modern JavaScript feature that makes asynchronous code look and behave more like synchronous code. It provides the best readability while maintaining all the benefits of Promises, making code easier to understand and maintain.  
 
 **Bad:**
 ```javascript
@@ -2032,9 +2033,9 @@ Thrown errors are a good thing! They mean the runtime has successfully identifie
 
 Q:: =============================================  
 
-##### Don't ignore caught errors
+##### Are you properly handling caught errors?  
 
-Proper error handling is crucial for maintaining robust applications. Simply catching errors without handling them appropriately can lead to silent failures and make debugging extremely difficult.
+Proper error handling is crucial for maintaining robust applications. Simply catching errors without handling them appropriately can lead to silent failures and make debugging extremely difficult.  
 
 **Bad:**
 ```javascript
@@ -2069,9 +2070,9 @@ try {
 
 Q:: =============================================  
 
-##### Don't ignore rejected promises
+##### Are you handling rejected Promises correctly?  
 
-Proper handling of Promise rejections is crucial for maintaining robust applications. Just like with try/catch blocks, ignoring Promise rejections can lead to silent failures, making debugging difficult and potentially leaving your application in an inconsistent state.
+Proper handling of Promise rejections is crucial for maintaining robust applications. Just like with try/catch blocks, ignoring Promise rejections can lead to silent failures, making debugging difficult and potentially leaving your application in an inconsistent state.  
 
 **Bad:**
 ```javascript
@@ -2118,9 +2119,9 @@ For things that don't fall under the purview of automatic formatting (indentatio
 
 Q:: =============================================  
 
-##### Use consistent capitalization
+##### Are you maintaining consistent capitalization in your code?  
 
-Consistent capitalization serves as a visual cue for the purpose and behavior of code elements in JavaScript. Since JavaScript is untyped, these naming conventions help developers quickly understand the role of different variables, functions, and classes. Following consistent patterns makes code more readable and maintainable.
+Consistent capitalization serves as a visual cue for the purpose and behavior of code elements in JavaScript. Since JavaScript is untyped, these naming conventions help developers quickly understand the role of different variables, functions, and classes. Following consistent patterns makes code more readable and maintainable.  
 
 **Bad:**
 ```javascript
@@ -2167,9 +2168,9 @@ class Alpaca {}
 
 Q:: =============================================  
 
-##### Function callers and callees should be close
+##### Are function callers and callees located close to each other?  
 
-Code organization impacts readability and maintainability. Functions that work together should be located close to each other in the source file. This principle follows natural reading patterns and makes it easier to understand the flow of the program.
+Code organization impacts readability and maintainability. Functions that work together should be located close to each other in the source file. This principle follows natural reading patterns and makes it easier to understand the flow of the program.  
 
 **Bad:**
 ```javascript
@@ -2268,9 +2269,9 @@ review.perfReview();
 
 Q:: =============================================  
 
-##### Only comment things that have business logic complexity
+##### Are your comments focused on explaining complex business logic?  
 
-Comments should explain the "why" behind complex business logic, not the "what" or "how" that should be evident from well-written code. Excessive comments often indicate that the code itself could be clearer or better structured.
+Comments should explain the "why" behind complex business logic, not the "what" or "how" that should be evident from well-written code. Excessive comments often indicate that the code itself could be clearer or better structured.  
 
 **Bad:**
 ```javascript
@@ -2313,9 +2314,9 @@ function hashIt(data) {
 
 Q:: =============================================  
 
-##### Don't leave commented out code in your codebase
+##### Have you removed commented-out code from your codebase?  
 
-Commented-out code creates confusion and clutters the codebase. It raises questions about whether the code is still needed or why it was commented out. Modern version control systems like Git are the proper tools for maintaining code history.
+Commented-out code creates confusion and clutters the codebase. It raises questions about whether the code is still needed or why it was commented out. Modern version control systems like Git are the proper tools for maintaining code history.  
 
 **Bad:**
 ```javascript
@@ -2337,9 +2338,9 @@ doStuff();
 
 Q:: =============================================  
 
-##### Don't have journal comments
+##### Are you avoiding journal comments in your code?  
 
-Journal comments that track changes are redundant when using version control systems. They become outdated quickly and add unnecessary noise to the codebase. Modern version control systems provide better tools for tracking changes and their authors.
+Journal comments that track changes are redundant when using version control systems. They become outdated quickly and add unnecessary noise to the codebase. Modern version control systems provide better tools for tracking changes and their authors.  
 
 **Bad:**
 ```javascript
@@ -2368,9 +2369,9 @@ function combine(a, b) {
 
 Q:: =============================================  
 
-##### Avoid positional markers
+##### Are you avoiding positional markers in your code?  
 
-Positional markers or section dividers add visual noise without providing real value. Well-structured code with meaningful names and proper organization should make the code's structure clear without needing these artificial divisions.
+Positional markers or section dividers add visual noise without providing real value. Well-structured code with meaningful names and proper organization should make the code's structure clear without needing these artificial divisions.  
 
 **Bad:**
 ```javascript
