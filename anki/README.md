@@ -1,4 +1,4 @@
-      16 } 
+# RCCJ - Clean code javascript - ryan mcdermott
 
 ## Questions
 
@@ -12,7 +12,7 @@
 | [4](#id4) | [Use explanatory variables break down compl](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/4%20-%20Use%20explanatory%20variables%20break%20down%20compl.md) | 1 | 1 |
 | [5](#id5) | [Avoid mental mapping don t force readers t](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/5%20-%20Avoid%20mental%20mapping%20don%20t%20force%20readers%20t.md) | 1 | 1 |
 | [6](#id6) | [Don t add unneeded context when the contex](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/6%20-%20Don%20t%20add%20unneeded%20context%20when%20the%20contex.md) | 1 | 1 |
-| [7](#id7) | [Use default parameters instead of short ci](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/7%20-%20Use%20default%20parameters%20instead%20of%20short%20ci.md) | 1 | 1 |
+| [7](#id7) | [Use default parameters instead of short-ci](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/7%20-%20Use%20default%20parameters%20instead%20of%20short-ci.md) | 1 | 1 |
 | **-** | **Fundamentals > Functions** | **1** | **2** |
 | [8](#id8) | [Function arguments 2 or fewer ideally ha](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/8%20-%20Function%20arguments%202%20or%20fewer%20ideally%20ha.md) | 1 | 2 |
 | [9](#id9) | [Functions should do one thing a fundamenta](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/9%20-%20Functions%20should%20do%20one%20thing%20a%20fundamenta.md) | 1 | 2 |
@@ -38,7 +38,7 @@
 | **-** | **Fundamentals > Classes** | **1** | **4** |
 | [28](#id28) | [Prefer es2015-es6 classes over es5 plain f](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/28%20-%20Prefer%20es2015-es6%20classes%20over%20es5%20plain%20f.md) | 1 | 4 |
 | [29](#id29) | [Use method chaining method chaining is a p](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/29%20-%20Use%20method%20chaining%20method%20chaining%20is%20a%20p.md) | 1 | 4 |
-| [30](#id30) | [Prefer composition over inheritance compos](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/30%20-%20Prefer%20composition%20over%20inheritance%20compos.md) | 1 | 4 |
+| [30](#id30) | [Prefer composition to inheritance composit](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/30%20-%20Prefer%20composition%20to%20inheritance%20composit.md) | 1 | 4 |
 | **-** | **Fundamentals > SOLID** | **1** | **5** |
 | [31](#id31) | [Single responsibility principle srp the](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/31%20-%20Single%20responsibility%20principle%20srp%20the.md) | 1 | 5 |
 | [32](#id32) | [Open-closed principle ocp the open-close](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/32%20-%20Open-closed%20principle%20ocp%20the%20open-close.md) | 1 | 5 |
@@ -238,11 +238,11 @@ function paintCar(car, color) {
 
 Q:: =============================================  
 
-##### Use default parameters instead of short circuiting or conditionals
+##### Use default parameters instead of short-circuiting or conditionals
 
 Default parameters provide a cleaner way to handle missing values in function parameters. They make the intended default value explicit in the function signature.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#use-default-parameters-instead-of-short-circuiting-or-conditionals](https://github.com/ryanmcdermott/clean-code-javascript#use-default-parameters-instead-of-short-circuiting-or-conditionals)
 
@@ -274,7 +274,7 @@ Q:: =============================================
 
 Having too many function parameters makes your code harder to test and maintain. Each additional parameter exponentially increases the number of test cases needed.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#function-arguments-2-or-fewer-ideally](https://github.com/ryanmcdermott/clean-code-javascript#function-arguments-2-or-fewer-ideally)
 
@@ -312,7 +312,7 @@ Q:: =============================================
 
 A fundamental principle of clean code is that functions should have a single responsibility. This makes them easier to understand, test, and maintain.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#functions-should-do-one-thing](https://github.com/ryanmcdermott/clean-code-javascript#functions-should-do-one-thing)
 
@@ -457,7 +457,7 @@ Q:: =============================================
 
 Code duplication is one of the biggest enemies of maintainable software. When code is duplicated, changes need to be made in multiple places, increasing the chance of errors and making maintenance more difficult.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#remove-duplicate-code](https://github.com/ryanmcdermott/clean-code-javascript#remove-duplicate-code)
 
@@ -621,7 +621,7 @@ Q:: =============================================
 
 Side effects are changes that a function makes to any state outside its own scope. These can include modifying global variables, changing input parameters, or affecting the environment. They make code harder to test and can lead to unexpected bugs.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-1](https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-1)
 
@@ -664,7 +664,7 @@ Q:: =============================================
 
 Mutable data structures can lead to unintended side effects when shared across different parts of your application. When modifying objects or arrays that are passed as parameters, you risk affecting code elsewhere that uses those same references.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-2](https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-2)
 
@@ -693,7 +693,7 @@ Q:: =============================================
 
 Extending built-in objects through their prototypes (like Array, String, etc.) can lead to naming conflicts and unexpected behavior in your application, especially when multiple libraries are involved.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#dont-write-to-global-functions](https://github.com/ryanmcdermott/clean-code-javascript#dont-write-to-global-functions)
 
@@ -998,7 +998,7 @@ Key principles:
 - Only optimize after profiling identifies actual bottlenecks
 - Consider browser compatibility when optimizing
 
-Reference:
+**Reference**:
 
 * [https://github.com/petkaantonov/bluebird/wiki/Optimization-killers](https://github.com/petkaantonov/bluebird/wiki/Optimization-killers)
 
@@ -1360,7 +1360,7 @@ const car = new Car("Ford", "F-150", "red")
 
 Q:: =============================================  
 
-##### Prefer composition over inheritance
+##### Prefer composition to inheritance
 
 Composition and inheritance are two fundamental approaches to code reuse in object-oriented programming. While inheritance is powerful, composition often provides more flexibility and looser coupling between components.
 
@@ -1376,7 +1376,7 @@ When to use inheritance:
 2. Base class behavior can be reused
 3. You need to make global changes across all derived classes
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#prefer-composition-over-inheritance](https://github.com/ryanmcdermott/clean-code-javascript#prefer-composition-over-inheritance)
 
@@ -1589,7 +1589,7 @@ Q:: =============================================
 
 The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application. In simpler terms, child classes must be able to do everything their parent class can do.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#liskov-substitution-principle-lsp](https://github.com/ryanmcdermott/clean-code-javascript#liskov-substitution-principle-lsp)
 
@@ -1705,7 +1705,7 @@ Q:: =============================================
 
 The Interface Segregation Principle states that clients should not be forced to depend on interfaces they don't use. In JavaScript, where interfaces are implicit, this means classes shouldn't be forced to implement methods they don't need.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#interface-segregation-principle-isp](https://github.com/ryanmcdermott/clean-code-javascript#interface-segregation-principle-isp)
 
@@ -1778,7 +1778,7 @@ Q:: =============================================
 
 The Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. This promotes loose coupling and makes the code more flexible and easier to modify.
 
-Reference:
+**Reference**:
 
 * [https://github.com/ryanmcdermott/clean-code-javascript#dependency-inversion-principle-dip](https://github.com/ryanmcdermott/clean-code-javascript#dependency-inversion-principle-dip)
 
@@ -2028,7 +2028,7 @@ getCleanCodeArticle();
 
 #### Chapter 8 - **Error Handling**
 
-Thrown errors are a good thing! They mean the runtime has successfully identified when something in your program has gone wrong and it's letting you know by stopping function execution on the current stack, killing the process (in Node), and notifying you in the console with a stack trace.
+Thrown errors are a good thing! They mean the runtime has successfully identified when something in your program has gone wrong, and it's letting you know by stopping function execution on the current stack, killing the process (in Node), and notifying you in the console with a stack trace.
 
 Q:: =============================================  
 
