@@ -54,14 +54,14 @@ Feeling chatty? Constructive feedback and suggestions are the secret sauce – s
 In case Anki forgets its styling magic, tap into the mystical powers of [CSS/HTML styles from my repository](https://github.com/envico801/anki-config/tree/main/cards/basic). Your eyes will thank you for the clarity! Pay special attention to the styles for code blocks and tables – those sneaky code blocks tend to lose their indentations, and table borders play hide and seek.
 
 <p align="center">
-    <a href="https://github.com/user-attachments/assets/6435f157-80b6-4b18-8cb9-3f4590d67b40" target="_blank">
-        <img src="https://github.com/user-attachments/assets/6435f157-80b6-4b18-8cb9-3f4590d67b40" alt="Card example 1" style="height: 200px;">
+    <a href="https://github.com/user-attachments/assets/f19e1676-6c21-4112-9da9-26e177b901ba" target="_blank">
+        <img src="https://github.com/user-attachments/assets/f19e1676-6c21-4112-9da9-26e177b901ba" alt="Card example 1" style="height: 200px;">
     </a>
-    <a href="https://github.com/user-attachments/assets/93d48794-e699-4d6b-83d1-c112a3608cb6" target="_blank">
-        <img src="https://github.com/user-attachments/assets/93d48794-e699-4d6b-83d1-c112a3608cb6" alt="Card example 2" style="height: 200px;">
+    <a href="https://github.com/user-attachments/assets/c0397fc0-1ec5-45c2-901d-e5b242421f6d" target="_blank">
+        <img src="https://github.com/user-attachments/assets/c0397fc0-1ec5-45c2-901d-e5b242421f6d" alt="Card example 2" style="height: 200px;">
     </a>
-    <a href="https://github.com/user-attachments/assets/0d94bf4c-e616-4491-a306-eb32c0ea1f6c" target="_blank">
-        <img src="https://github.com/user-attachments/assets/0d94bf4c-e616-4491-a306-eb32c0ea1f6c" alt="Card example 3" style="height: 200px;">
+    <a href="https://github.com/user-attachments/assets/0a8f1971-3782-46f2-8a33-17d4fe417604" target="_blank">
+        <img src="https://github.com/user-attachments/assets/0a8f1971-3782-46f2-8a33-17d4fe417604" alt="Card example 3" style="height: 200px;">
     </a>
 </p>
 
