@@ -77,9 +77,9 @@ The consistent formatting makes the code more predictable and easier to read at 
 
 DECK INFO
 
-TARGET DECK: Javascript::Coding best practices::RCCJ - Clean code javascript - ryan mcdermott::Part I - Fundamentals::Chapter 7 - Concurrency
+TARGET DECK: Javascript::Coding best practices::RCCJ - Clean code javascript - ryan mcdermott::Part I - Fundamentals::Chapter 9 - Formatting
 
-FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-7-Concurrency::#41-Are-you-maintaining-consistent-capitalizat
+FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-9-Formatting::#41-Are-you-maintaining-consistent-capitalizat
 
 Tags:
 

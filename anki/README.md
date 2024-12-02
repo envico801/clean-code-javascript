@@ -50,10 +50,12 @@
 | **-** | **Fundamentals > Concurrency** | **1** | **7** |
 | [37](#id37) | [Are you using promises instead of callback](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/37%20-%20Are%20you%20using%20promises%20instead%20of%20callback.md) | 1 | 7 |
 | [38](#id38) | [Are you using async-await for even cleaner](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/38%20-%20Are%20you%20using%20async-await%20for%20even%20cleaner.md) | 1 | 7 |
-| [39](#id39) | [Are you properly handling caught errors l](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/39%20-%20Are%20you%20properly%20handling%20caught%20errors%20l.md) | 1 | 7 |
-| [40](#id40) | [Are you handling rejected promises correct](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/40%20-%20Are%20you%20handling%20rejected%20promises%20correct.md) | 1 | 7 |
-| [41](#id41) | [Are you maintaining consistent capitalizat](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/41%20-%20Are%20you%20maintaining%20consistent%20capitalizat.md) | 1 | 7 |
-| [42](#id42) | [Are function callers and callees located c](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/42%20-%20Are%20function%20callers%20and%20callees%20located%20c.md) | 1 | 7 |
+| **-** | **Fundamentals > Error Handling** | **1** | **8** |
+| [39](#id39) | [Are you properly handling caught errors l](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%208%20-%20Error%20Handling/39%20-%20Are%20you%20properly%20handling%20caught%20errors%20l.md) | 1 | 8 |
+| [40](#id40) | [Are you handling rejected promises correct](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%208%20-%20Error%20Handling/40%20-%20Are%20you%20handling%20rejected%20promises%20correct.md) | 1 | 8 |
+| **-** | **Fundamentals > Formatting** | **1** | **9** |
+| [41](#id41) | [Are you maintaining consistent capitalizat](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Formatting/41%20-%20Are%20you%20maintaining%20consistent%20capitalizat.md) | 1 | 9 |
+| [42](#id42) | [Are function callers and callees located c](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%209%20-%20Formatting/42%20-%20Are%20function%20callers%20and%20callees%20located%20c.md) | 1 | 9 |
 | **-** | **Fundamentals > Comments** | **1** | **10** |
 | [43](#id43) | [Are your comments focused on explaining co](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/43%20-%20Are%20your%20comments%20focused%20on%20explaining%20co.md) | 1 | 10 |
 | [44](#id44) | [Have you removed commented-out code from y](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/44%20-%20Have%20you%20removed%20commented-out%20code%20from%20y.md) | 1 | 10 |
@@ -942,7 +944,6 @@ console.log(newName); // ['Ryan', 'McDermott'];
 - Function is predictable and easier to test
 - Clear input/output relationship
 - Can use the original name value elsewhere in the code
-- Multiple functions can safely use the same input
 
 Q:: =============================================  
 
@@ -2820,7 +2821,7 @@ getCleanCodeArticle();
 
 The code reads like synchronous code while maintaining asynchronous behavior. The try/catch block provides familiar error handling syntax that most developers are comfortable with.
 
-### Chapter 8 - Error Handling
+#### Chapter 8 - Error Handling
 
 Thrown errors are a good thing! They mean the runtime has successfully identified when something in your program has gone wrong, and it's letting you know by stopping function execution on the current stack, killing the process (in Node), and notifying you in the console with a stack trace.
 
@@ -2942,7 +2943,7 @@ getdata()
 
 This approach provides comprehensive error handling with proper logging, user feedback, and the possibility of recovery strategies like retrying operations.
 
-### Chapter 9 - Formatting
+#### Chapter 9 - Formatting
 
 Formatting is subjective. Like many rules herein, there is no hard and fast rule that you must follow. The main point is DO NOT ARGUE over formatting. There are [tons of tools](https://standardjs.com/rules.html) to automate this. Use one! It's a waste of time and money for engineers to argue over formatting.
 
@@ -3360,8 +3361,6 @@ const actions = function () {
 - Code organization is achieved through proper structure, not visual markers
 - Suggests better architectural decisions (like separating concerns into modules)
 - Easier to maintain and modify without needing to update dividers
-
-**Remember**: If you need visual separation in your code, that might be a sign that your code should be split into separate modules or files. Let the natural structure of your code speak for itself through good naming and organization.
 
 ---
 

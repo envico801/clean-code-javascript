@@ -62,12 +62,6 @@ getdata()
 
 This approach provides comprehensive error handling with proper logging, user feedback, and the possibility of recovery strategies like retrying operations.
 
-### Chapter 9 - Formatting
-
-Formatting is subjective. Like many rules herein, there is no hard and fast rule that you must follow. The main point is DO NOT ARGUE over formatting. There are [tons of tools](https://standardjs.com/rules.html) to automate this. Use one! It's a waste of time and money for engineers to argue over formatting.
-
-For things that don't fall under the purview of automatic formatting (indentation, tabs vs. spaces, double vs. single quotes, etc.) look here for some guidance.
-
 ========== Id ==========  
 40
 
@@ -75,9 +69,9 @@ For things that don't fall under the purview of automatic formatting (indentatio
 
 DECK INFO
 
-TARGET DECK: Javascript::Coding best practices::RCCJ - Clean code javascript - ryan mcdermott::Part I - Fundamentals::Chapter 7 - Concurrency
+TARGET DECK: Javascript::Coding best practices::RCCJ - Clean code javascript - ryan mcdermott::Part I - Fundamentals::Chapter 8 - Error Handling
 
-FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-7-Concurrency::#40-Are-you-handling-rejected-promises-correct
+FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-8-Error-Handling::#40-Are-you-handling-rejected-promises-correct
 
 Tags:
 

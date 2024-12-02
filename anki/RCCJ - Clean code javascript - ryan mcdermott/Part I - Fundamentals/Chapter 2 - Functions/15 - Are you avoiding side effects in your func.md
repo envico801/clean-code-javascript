@@ -68,8 +68,6 @@ console.log(newName); // ['Ryan', 'McDermott'];
 
 -   Can use the original name value elsewhere in the code
 
--   Multiple functions can safely use the same input
-
 ========== Id ==========  
 15
 

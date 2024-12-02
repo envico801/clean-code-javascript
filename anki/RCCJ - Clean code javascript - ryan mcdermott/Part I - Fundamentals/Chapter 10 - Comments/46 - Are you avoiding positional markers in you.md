@@ -69,8 +69,6 @@ const actions = function () {
 
 -   Easier to maintain and modify without needing to update dividers
 
-**Remember**: If you need visual separation in your code, that might be a sign that your code should be split into separate modules or files. Let the natural structure of your code speak for itself through good naming and organization.
-
 ========== Id ==========  
 46
 
