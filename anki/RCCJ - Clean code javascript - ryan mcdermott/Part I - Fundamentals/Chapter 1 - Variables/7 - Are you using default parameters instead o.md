@@ -11,9 +11,9 @@ function createMicrobrewery(name) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens if name is an empty string?
 

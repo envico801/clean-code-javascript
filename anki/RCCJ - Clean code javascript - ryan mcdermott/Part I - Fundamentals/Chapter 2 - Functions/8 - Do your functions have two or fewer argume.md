@@ -12,9 +12,9 @@ function createMenu(title, body, buttonText, cancellable) {
 createMenu('Foo', 'Bar', 'Baz', true);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How easy is it to remember the order of parameters?
 

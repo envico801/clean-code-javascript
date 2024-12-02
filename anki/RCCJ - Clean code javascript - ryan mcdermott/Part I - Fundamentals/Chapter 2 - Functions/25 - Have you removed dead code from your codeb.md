@@ -17,9 +17,9 @@ const req = newRequestModule;
 inventoryTracker('apples', req, 'www.inventory-awesome.io');
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   Which functions are actually being used?
 

@@ -36,9 +36,9 @@ function showManagerList(managers) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What code is being repeated in both functions?
 

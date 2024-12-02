@@ -40,9 +40,9 @@ Human.prototype.constructor = Human;
 Human.prototype.speak = function speak() {};
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How readable is this inheritance pattern?
 

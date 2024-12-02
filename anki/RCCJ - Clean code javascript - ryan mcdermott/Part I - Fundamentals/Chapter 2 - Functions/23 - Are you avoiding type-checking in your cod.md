@@ -17,9 +17,9 @@ function combine(val1, val2) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How readable is this type-checking code?
 

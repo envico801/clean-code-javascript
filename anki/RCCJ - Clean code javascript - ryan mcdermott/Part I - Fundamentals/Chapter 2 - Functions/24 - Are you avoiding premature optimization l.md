@@ -12,9 +12,9 @@ for (let i = 0, len = list.length; i < len; i++) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   Is this optimization actually necessary in modern browsers?
 

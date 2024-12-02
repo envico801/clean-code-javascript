@@ -10,9 +10,9 @@ if (fsm.state === 'fetching' && isEmpty(listNode)) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What is this condition actually checking for?
 

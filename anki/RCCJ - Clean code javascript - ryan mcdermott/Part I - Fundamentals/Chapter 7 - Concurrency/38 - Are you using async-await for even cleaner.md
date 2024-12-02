@@ -20,9 +20,9 @@ get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
     });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How could we make this read more like synchronous code?
 

@@ -14,9 +14,9 @@ getdata()
     });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   Is just logging enough for production code?
 

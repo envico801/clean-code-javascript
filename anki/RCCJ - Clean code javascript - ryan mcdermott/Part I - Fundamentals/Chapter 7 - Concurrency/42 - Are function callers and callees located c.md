@@ -42,9 +42,9 @@ const review = new PerformanceReview(employee);
 review.perfReview();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How are related functions positioned relative to each other?
 
@@ -58,7 +58,7 @@ Think about:
 
 ========== Answer ==========  
 
-**The Principle:**
+**The Principle**:
 
 Code organization impacts readability and maintainability. Functions that work together should be located close to each other in the source file. This principle follows natural reading patterns and makes it easier to understand the flow of the program.
 

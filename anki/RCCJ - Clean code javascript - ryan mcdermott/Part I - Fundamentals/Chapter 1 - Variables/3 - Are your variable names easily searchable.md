@@ -9,9 +9,9 @@ Look at this code. What's the problem here?
 setTimeout(blastOff, 86400000);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What does 86400000 represent?
 

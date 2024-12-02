@@ -84,9 +84,10 @@ Look at this code. What's wrong with it?
 const yyyymmdstr = moment().format("YYYY/MM/DD");
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - What does this variable store?
 - Would other developers understand it easily?
@@ -125,9 +126,10 @@ getClientData();
 getCustomerRecord();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - What concept do all these functions deal with?
 - Is the naming consistent?
@@ -163,9 +165,10 @@ Look at this code. What's the problem here?
 setTimeout(blastOff, 86400000);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - What does 86400000 represent?
 - How would you find all places using this number?
@@ -205,9 +208,10 @@ const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
 saveCityZipCode(address.match(cityZipCodeRegex)[1], address.match(cityZipCodeRegex)[2]);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - How many times is the regex match performed?
 - What do the array indices [1] and [2] represent?
@@ -254,9 +258,10 @@ locations.forEach((l) => {
 });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - What does 'l' represent?
 - How much mental effort is needed to keep track of what 'l' means?
@@ -307,9 +312,10 @@ function paintCar(car, color) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - What context does the `Car` object already provide?
 - Are the 'car' prefixes adding any valuable information?
@@ -355,9 +361,10 @@ function createMicrobrewery(name) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - What happens if name is an empty string?
 - What happens if name is 0?
@@ -404,9 +411,10 @@ function createMenu(title, body, buttonText, cancellable) {
 createMenu("Foo", "Bar", "Baz", true);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - How easy is it to remember the order of parameters?
 - What happens if you want to add more options?
@@ -461,9 +469,10 @@ function emailClients(clients) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - How many different operations is this function performing?
 - What if you needed to reuse just the active client check?
@@ -516,9 +525,10 @@ const date = new Date();
 addToDate(date, 1);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - What exactly is being added to the date?
 - Is the parameter order intuitive?
@@ -579,9 +589,10 @@ function parseBetterJSAlternative(code) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 
 - How many different operations are happening here?
 - Are all these operations at the same conceptual level?
@@ -678,9 +689,10 @@ function showManagerList(managers) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What code is being repeated in both functions?
 - Could these functions be combined?
 - How could we handle the differences between developers and managers?
@@ -758,9 +770,10 @@ function createMenu(config) {
 createMenu(menuConfig);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens to the original config object?
 - Is this code immutable?
 - How could we make this cleaner using modern JavaScript?
@@ -827,9 +840,10 @@ function createFile(name, temp) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What does the boolean parameter tell you about the function's responsibilities?
 - Is this function doing more than one thing?
 - How could we make the function's purpose clearer?
@@ -884,9 +898,10 @@ splitIntoFirstAndLastName();
 console.log(name); // ['Ryan', 'McDermott'];
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens to the original `name` variable?
 - Could this function cause problems in other parts of the code?
 - How would you test this function?
@@ -941,9 +956,10 @@ const addItemToCart = (cart, item) => {
 };
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens to the original cart array?
 - Could this cause issues if multiple parts of the code use the same cart?
 - How would you track changes to the cart?
@@ -993,9 +1009,10 @@ Array.prototype.diff = function diff(comparisonArray) {
 };
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens if different libraries try to add a `diff` method?
 - Could this break existing code that uses arrays?
 - How could we add this functionality without modifying the Array prototype?
@@ -1068,9 +1085,10 @@ for (let i = 0; i < programmerOutput.length; i++) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What state is being maintained in this code?
 - How could we make this more declarative?
 - What array methods could simplify this?
@@ -1135,9 +1153,10 @@ if (fsm.state === "fetching" && isEmpty(listNode)) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What is this condition actually checking for?
 - How could we make the intent clearer?
 - Could we extract this logic into a well-named function?
@@ -1190,9 +1209,10 @@ if (!isDOMNodeNotPresent(node)) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How many negatives are you processing mentally?
 - What is the actual intent of this code?
 - How could you make the condition more intuitive?
@@ -1251,9 +1271,10 @@ class Airplane {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens when you need to add a new airplane type?
 - How many places would you need to modify?
 - Is this following the Open/Closed Principle?
@@ -1334,9 +1355,10 @@ function travelToTexas(vehicle) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How many vehicle types might we need to handle in the future?
 - What happens when we add a new vehicle type?
 - Is there a way to make this more flexible?
@@ -1390,9 +1412,10 @@ function combine(val1, val2) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How readable is this type-checking code?
 - What happens if we need to support more types?
 - Is there a better way to ensure type safety?
@@ -1452,9 +1475,10 @@ for (let i = 0, len = list.length; i < len; i++) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - Is this optimization actually necessary in modern browsers?
 - What's more important: code readability or micro-optimizations?
 - How do modern JavaScript engines handle loop optimizations?
@@ -1513,9 +1537,10 @@ const req = newRequestModule;
 inventoryTracker("apples", req, "www.inventory-awesome.io");
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - Which functions are actually being used?
 - What happens if someone tries to use the old function?
 - How does keeping unused code affect maintainability?
@@ -1576,9 +1601,10 @@ const account = makeBankAccount();
 account.balance = 100;
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens if someone sets a negative balance?
 - How would you add validation logic?
 - What if you need to log when the balance changes?
@@ -1662,9 +1688,10 @@ delete employee.name; // Uh oh!
 console.log(`Employee name: ${employee.getName()}`); // Employee name: undefined
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens if someone modifies the name directly?
 - How can we prevent accidental property deletion?
 - Is there a way to make the name truly private?
@@ -1756,9 +1783,10 @@ Human.prototype.constructor = Human;
 Human.prototype.speak = function speak() {};
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How readable is this inheritance pattern?
 - How much boilerplate code is needed?
 - Is there a clearer way to show the relationship between classes?
@@ -1861,9 +1889,10 @@ car.setModel("Mustang");
 car.save();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How many lines of code are needed to modify the car?
 - Is there a way to make this more fluent?
 - What do popular libraries like jQuery do?
@@ -1959,9 +1988,10 @@ class EmployeeTaxData extends Employee {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - Is an EmployeeTaxData really a type of Employee?
 - What's the relationship between Employee and tax data?
 - Would this design be flexible if requirements change?
@@ -2052,9 +2082,10 @@ class UserSettings {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How many different responsibilities does this class have?
 - What if authentication rules change?
 - What if settings logic changes?
@@ -2153,9 +2184,10 @@ function makeHttpCall(url) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens if you need to add a new type of adapter?
 - How many places would you need to modify the code?
 - Is there a way to make the code more flexible?
@@ -2277,9 +2309,10 @@ const rectangles = [new Rectangle(), new Rectangle(), new Square()];
 renderLargeRectangles(rectangles);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens when you set width=4 and height=5 on a Square?
 - Should a Square really extend Rectangle?
 - What assumptions might programmers make about a Rectangle?
@@ -2384,9 +2417,10 @@ const $ = new DOMTraverser({
 });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What if we don't need animations?
 - Are we forcing users to provide unnecessary functionality?
 - How could we make the animation module optional?
@@ -2483,9 +2517,10 @@ const inventoryTracker = new InventoryTracker(["apples", "bananas"]);
 inventoryTracker.requestItems();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What if we want to use a different type of requester?
 - How tightly coupled is InventoryTracker to InventoryRequester?
 - What if we want to use WebSockets instead of HTTP?
@@ -2597,9 +2632,10 @@ describe("MomentJS", () => {
 });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens if one assertion fails? How easy is it to identify which case failed?
 - How many different concepts are being tested in a single test?
 - What's the story this test is trying to tell?
@@ -2679,9 +2715,10 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin", (requestErr, response, 
 });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How easy is it to follow the flow of operations?
 - What happens to the indentation as more callbacks are added?
 - How scattered is the error handling?
@@ -2741,9 +2778,10 @@ get("https://en.wikipedia.org/wiki/Robert_Cecil_Martin")
   });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How could we make this read more like synchronous code?
 - What modern JavaScript feature could help here?
 - How could we make error handling more familiar?
@@ -2800,9 +2838,10 @@ try {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What happens to this error after it's logged?
 - How would you debug issues in production?
 - How would users know something went wrong?
@@ -2857,9 +2896,10 @@ getdata()
   });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - Is just logging enough for production code?
 - What happens after the error is caught?
 - How would you handle temporary failures?
@@ -2928,9 +2968,10 @@ class animal {}
 class Alpaca {}
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How are constants named?
 - What's the pattern for function names?
 - What's the convention for class names?
@@ -3017,9 +3058,10 @@ const review = new PerformanceReview(employee);
 review.perfReview();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How are related functions positioned relative to each other?
 - Which functions call other functions?
 - How many times do you need to scroll up and down to understand the flow?
@@ -3030,7 +3072,7 @@ Think about:
 ###### ID42
 
 A:: =============================================  
-**The Principle:**
+**The Principle**:
 
 Code organization impacts readability and maintainability. Functions that work together should be located close to each other in the source file. This principle follows natural reading patterns and makes it easier to understand the flow of the program.
 
@@ -3111,9 +3153,10 @@ function hashIt(data) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What value do these comments add?
 - Are they explaining anything that isn't obvious from the code?
 - What would be more useful to explain here?
@@ -3124,7 +3167,7 @@ Think about:
 ###### ID43
 
 A:: =============================================  
-**The Principle:**
+**The Principle**:
 
 Comments should explain the "why" behind complex business logic, not the "what" or "how" that should be evident from well-written code. Excessive comments often indicate that the code itself could be clearer or better structured.
 
@@ -3166,9 +3209,10 @@ doStuff();
 // doSoMuchStuff();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - Why might these lines be commented out?
 - How does this affect code readability?
 - What questions might other developers have when they see this?
@@ -3179,7 +3223,7 @@ Think about:
 ###### ID44
 
 A:: =============================================  
-**The Principle:**
+**The Principle**:
 
 Commented-out code creates confusion and clutters the codebase. It raises questions about whether the code is still needed or why it was commented out. Modern version control systems like Git are the proper tools for maintaining code history.
 
@@ -3216,9 +3260,10 @@ function combine(a, b) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - How useful is this history in the code itself?
 - What happens when the code changes again?
 - What tools could better track this information?
@@ -3229,7 +3274,7 @@ Think about:
 ###### ID45
 
 A:: =============================================  
-**The Principle:**
+**The Principle**:
 
 Journal comments that track changes are redundant when using version control systems. They become outdated quickly and add unnecessary noise to the codebase. Modern version control systems provide better tools for tracking changes and their authors.
 
@@ -3274,9 +3319,10 @@ const actions = function () {
 };
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
+
 - What purpose do these dividers serve?
 - Do they make the code more maintainable?
 - How else could we make code structure clear?
@@ -3287,7 +3333,7 @@ Think about:
 ###### ID46
 
 A:: =============================================  
-**The Principle:**
+**The Principle**:
 
 Positional markers or section dividers add visual noise without providing real value. Well-structured code with meaningful names and proper organization should make the code's structure clear without needing these artificial divisions.
 

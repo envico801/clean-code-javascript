@@ -46,9 +46,9 @@ function makeHttpCall(url) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens if you need to add a new type of adapter?
 

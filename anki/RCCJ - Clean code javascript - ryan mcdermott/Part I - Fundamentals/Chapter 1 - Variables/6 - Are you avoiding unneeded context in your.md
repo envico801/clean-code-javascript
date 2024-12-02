@@ -16,9 +16,9 @@ function paintCar(car, color) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What context does the `Car` object already provide?
 

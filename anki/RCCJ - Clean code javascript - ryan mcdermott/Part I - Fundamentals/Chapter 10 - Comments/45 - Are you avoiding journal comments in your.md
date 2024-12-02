@@ -16,9 +16,9 @@ function combine(a, b) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How useful is this history in the code itself?
 
@@ -32,7 +32,7 @@ Think about:
 
 ========== Answer ==========  
 
-**The Principle:**
+**The Principle**:
 
 Journal comments that track changes are redundant when using version control systems. They become outdated quickly and add unnecessary noise to the codebase. Modern version control systems provide better tools for tracking changes and their authors.
 

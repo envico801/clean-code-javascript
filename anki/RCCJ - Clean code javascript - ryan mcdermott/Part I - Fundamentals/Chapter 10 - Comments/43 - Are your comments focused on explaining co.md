@@ -22,9 +22,9 @@ function hashIt(data) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What value do these comments add?
 
@@ -38,7 +38,7 @@ Think about:
 
 ========== Answer ==========  
 
-**The Principle:**
+**The Principle**:
 
 Comments should explain the "why" behind complex business logic, not the "what" or "how" that should be evident from well-written code. Excessive comments often indicate that the code itself could be clearer or better structured.
 

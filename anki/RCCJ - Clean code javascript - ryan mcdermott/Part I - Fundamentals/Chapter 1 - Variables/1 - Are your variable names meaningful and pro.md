@@ -8,9 +8,9 @@ Look at this code. What's wrong with it?
 const yyyymmdstr = moment().format('YYYY/MM/DD');
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What does this variable store?
 

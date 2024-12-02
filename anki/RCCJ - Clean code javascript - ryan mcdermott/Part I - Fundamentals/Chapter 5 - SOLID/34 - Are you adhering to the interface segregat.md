@@ -29,9 +29,9 @@ const $ = new DOMTraverser({
 });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What if we don't need animations?
 

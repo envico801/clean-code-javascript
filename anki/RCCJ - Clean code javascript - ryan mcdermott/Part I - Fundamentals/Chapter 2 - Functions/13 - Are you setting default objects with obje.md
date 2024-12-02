@@ -23,9 +23,9 @@ function createMenu(config) {
 createMenu(menuConfig);
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens to the original config object?
 

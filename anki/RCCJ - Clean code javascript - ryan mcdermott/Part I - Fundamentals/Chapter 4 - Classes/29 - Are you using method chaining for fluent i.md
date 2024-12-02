@@ -35,9 +35,9 @@ car.setModel('Mustang');
 car.save();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How many lines of code are needed to modify the car?
 

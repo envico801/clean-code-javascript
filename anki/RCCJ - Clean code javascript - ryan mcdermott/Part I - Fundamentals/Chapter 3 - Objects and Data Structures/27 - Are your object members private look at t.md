@@ -19,9 +19,9 @@ delete employee.name; // Uh oh!
 console.log(`Employee name: ${employee.getName()}`); // Employee name: undefined
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens if someone modifies the name directly?
 

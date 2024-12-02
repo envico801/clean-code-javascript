@@ -14,9 +14,9 @@ function createFile(name, temp) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What does the boolean parameter tell you about the function's responsibilities?
 

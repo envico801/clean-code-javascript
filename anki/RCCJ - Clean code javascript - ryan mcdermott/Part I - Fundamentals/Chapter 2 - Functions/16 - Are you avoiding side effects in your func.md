@@ -10,9 +10,9 @@ const addItemToCart = (cart, item) => {
 };
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens to the original cart array?
 

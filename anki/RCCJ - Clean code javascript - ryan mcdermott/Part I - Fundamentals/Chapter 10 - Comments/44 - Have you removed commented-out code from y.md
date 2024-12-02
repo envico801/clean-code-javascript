@@ -11,9 +11,9 @@ doStuff();
 // doSoMuchStuff();
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   Why might these lines be commented out?
 
@@ -27,7 +27,7 @@ Think about:
 
 ========== Answer ==========  
 
-**The Principle:**
+**The Principle**:
 
 Commented-out code creates confusion and clutters the codebase. It raises questions about whether the code is still needed or why it was commented out. Modern version control systems like Git are the proper tools for maintaining code history.
 

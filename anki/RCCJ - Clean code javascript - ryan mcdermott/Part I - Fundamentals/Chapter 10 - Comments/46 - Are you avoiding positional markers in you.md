@@ -21,9 +21,9 @@ const actions = function () {
 };
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What purpose do these dividers serve?
 
@@ -37,7 +37,7 @@ Think about:
 
 ========== Answer ==========  
 
-**The Principle:**
+**The Principle**:
 
 Positional markers or section dividers add visual noise without providing real value. Well-structured code with meaningful names and proper organization should make the code's structure clear without needing these artificial divisions.
 

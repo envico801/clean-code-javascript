@@ -11,9 +11,9 @@ Array.prototype.diff = function diff(comparisonArray) {
 };
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens if different libraries try to add a `diff` method?
 

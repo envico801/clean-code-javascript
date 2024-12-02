@@ -18,9 +18,9 @@ const account = makeBankAccount();
 account.balance = 100;
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens if someone sets a negative balance?
 

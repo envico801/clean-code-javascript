@@ -26,9 +26,9 @@ class EmployeeTaxData extends Employee {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   Is an EmployeeTaxData really a type of Employee?
 

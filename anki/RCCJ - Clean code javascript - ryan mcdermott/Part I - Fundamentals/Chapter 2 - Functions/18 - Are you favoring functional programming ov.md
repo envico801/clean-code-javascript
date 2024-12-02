@@ -31,9 +31,9 @@ for (let i = 0; i < programmerOutput.length; i++) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What state is being maintained in this code?
 

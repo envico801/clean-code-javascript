@@ -26,9 +26,9 @@ describe('MomentJS', () => {
 });
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   What happens if one assertion fails? How easy is it to identify which case failed?
 

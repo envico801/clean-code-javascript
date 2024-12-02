@@ -14,9 +14,9 @@ function travelToTexas(vehicle) {
 }
 ```
 
-<details><summary>🔍 Hints</summary>
+<details><summary><b>🔍 Hints</b></summary>
 
-Think about:
+<b>Think about</b>:
 
 -   How many vehicle types might we need to handle in the future?
 
