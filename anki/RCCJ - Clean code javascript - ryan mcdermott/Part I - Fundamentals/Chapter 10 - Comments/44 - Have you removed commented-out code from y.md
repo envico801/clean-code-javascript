@@ -2,26 +2,52 @@
 
 ### Have you removed commented-out code from your codebase?
 
-Commented-out code creates confusion and clutters the codebase. It raises questions about whether the code is still needed or why it was commented out. Modern version control systems like Git are the proper tools for maintaining code history.
-
-**Bad:**
+Look at this code snippet. What problems might it cause in a real project?
 
 ```javascript
 doStuff();
 // doOtherStuff();
 // doSomeMoreStuff();
 // doSoMuchStuff();
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   Why might these lines be commented out?
+
+-   How does this affect code readability?
+
+-   What questions might other developers have when they see this?
+
+-   What's a better way to handle old/unused code?
+
+</details>  
 
 ========== Answer ==========  
 
-Keep your codebase clean by removing commented-out code entirely. If you need to refer to old code, you can always find it in your version control history.
+**The Principle:**
 
-**Good:**
+Commented-out code creates confusion and clutters the codebase. It raises questions about whether the code is still needed or why it was commented out. Modern version control systems like Git are the proper tools for maintaining code history.
+
+**Solution**:
+
+Here's how the code should look:
 
 ```javascript
 doStuff();
 ```
+
+**Why is this better?**
+
+-   Clean and clear - no ambiguity about what code is actually being used
+
+-   No mental overhead wondering if the commented code is important
+
+-   If you need the old code, you can find it in your version control history
+
+-   Easier to maintain and review code without the clutter
 
 ========== Id ==========  
 44

@@ -2,9 +2,7 @@
 
 ### Are you avoiding journal comments in your code?
 
-Journal comments that track changes are redundant when using version control systems. They become outdated quickly and add unnecessary noise to the codebase. Modern version control systems provide better tools for tracking changes and their authors.
-
-**Bad:**
+Look at this function. What's problematic about its documentation?
 
 ```javascript
 /**
@@ -16,19 +14,49 @@ Journal comments that track changes are redundant when using version control sys
 function combine(a, b) {
     return a + b;
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How useful is this history in the code itself?
+
+-   What happens when the code changes again?
+
+-   What tools could better track this information?
+
+-   How does this affect code readability?
+
+</details>  
 
 ========== Answer ==========  
 
-Instead of maintaining a manual change log in comments, use version control commands like `git log`, `git blame`, and meaningful commit messages to track changes.
+**The Principle:**
 
-**Good:**
+Journal comments that track changes are redundant when using version control systems. They become outdated quickly and add unnecessary noise to the codebase. Modern version control systems provide better tools for tracking changes and their authors.
+
+**Solution**:
+
+Here's how the code should look:
 
 ```javascript
 function combine(a, b) {
     return a + b;
 }
 ```
+
+**Why is this better?**
+
+-   Clean code without historical clutter
+
+-   History is properly maintained in version control (git)
+
+-   Changes can be tracked with `git log` or `git blame`
+
+-   Documentation stays focused on current code behavior
+
+-   Easier to maintain and update
 
 ========== Id ==========  
 45

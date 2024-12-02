@@ -2,13 +2,7 @@
 
 ### Are you applying the Dependency Inversion Principle (DIP)?
 
-The Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. This promotes loose coupling and makes the code more flexible and easier to modify.
-
-**Reference**:
-
--   [https://github.com/ryanmcdermott/clean-code-javascript#dependency-inversion-principle-dip](https://github.com/ryanmcdermott/clean-code-javascript#dependency-inversion-principle-dip)
-
-**Bad:**
+Look at this code. What's problematic about how the InventoryTracker is implemented?
 
 ```javascript
 class InventoryRequester {
@@ -17,7 +11,7 @@ class InventoryRequester {
     }
 
     requestItem(item) {
-        // ...
+        // ... HTTP request implementation
     }
 }
 
@@ -35,21 +29,38 @@ class InventoryTracker {
     }
 }
 
+// Usage:
 const inventoryTracker = new InventoryTracker(['apples', 'bananas']);
 inventoryTracker.requestItems();
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What if we want to use a different type of requester?
+
+-   How tightly coupled is InventoryTracker to InventoryRequester?
+
+-   What if we want to use WebSockets instead of HTTP?
+
+-   How could we make this more flexible?
+
+</details>  
 
 ========== Answer ==========  
 
-The improved version implements DIP by:
+**The Principle**:
 
-1. Injecting the requester dependency
+The Dependency Inversion Principle states that high-level modules should not depend on low-level modules. Both should depend on abstractions. This promotes loose coupling and makes the code more flexible and easier to modify.
 
-2. Allowing different types of requesters to be used
+**Reference**:
 
-3. Making the high-level module (InventoryTracker) independent of specific implementations
+-   [https://github.com/ryanmcdermott/clean-code-javascript#dependency-inversion-principle-dip](https://github.com/ryanmcdermott/clean-code-javascript#dependency-inversion-principle-dip)
 
-**Good:**
+**Solution**:
+
+Here's a better approach:
 
 ```javascript
 class InventoryTracker {
@@ -65,34 +76,50 @@ class InventoryTracker {
     }
 }
 
-class InventoryRequesterV1 {
+class InventoryRequesterHTTP {
     constructor() {
         this.REQ_METHODS = ['HTTP'];
     }
 
     requestItem(item) {
-        // ...
+        // ... HTTP request implementation
     }
 }
 
-class InventoryRequesterV2 {
+class InventoryRequesterWS {
     constructor() {
         this.REQ_METHODS = ['WS'];
     }
 
     requestItem(item) {
-        // ...
+        // ... WebSocket request implementation
     }
 }
 
-// By constructing our dependencies externally and injecting them, we can easily
-// substitute our request module for a fancy new one that uses WebSockets.
-const inventoryTracker = new InventoryTracker(
+// Usage:
+const httpTracker = new InventoryTracker(
     ['apples', 'bananas'],
-    new InventoryRequesterV2(),
+    new InventoryRequesterHTTP(),
 );
-inventoryTracker.requestItems();
+
+const wsTracker = new InventoryTracker(
+    ['apples', 'bananas'],
+    new InventoryRequesterWS(),
+);
+
+httpTracker.requestItems();
+wsTracker.requestItems();
 ```
+
+**Why is this better?**
+
+1. InventoryTracker is no longer tightly coupled to a specific requester
+
+2. We can easily swap different types of requesters
+
+3. Testing becomes easier as we can mock the requester
+
+4. New request methods can be added without modifying existing code
 
 ========== Id ==========  
 35

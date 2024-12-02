@@ -2,9 +2,7 @@
 
 ### Are you favoring functional programming over imperative programming?
 
-Functional programming leads to more predictable code by avoiding state changes and side effects. It focuses on what should be computed rather than how it should be computed.
-
-**Bad:**
+Look at this code for calculating total lines of code. What could be improved?
 
 ```javascript
 const programmerOutput = [
@@ -31,13 +29,31 @@ let totalOutput = 0;
 for (let i = 0; i < programmerOutput.length; i++) {
     totalOutput += programmerOutput[i].linesOfCode;
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What state is being maintained in this code?
+
+-   How could we make this more declarative?
+
+-   What array methods could simplify this?
+
+-   How could we make this more readable?
+
+</details>  
 
 ========== Answer ==========  
 
-Use functional methods like map, reduce, and filter to write more declarative code. This approach is more concise, easier to read, and less prone to errors.
+**The Principle**:
 
-**Good:**
+Functional programming leads to more predictable code by avoiding state changes and side effects. It focuses on what should be computed rather than how it should be computed.
+
+**Solution**:
+
+Here's a more functional approach:
 
 ```javascript
 const programmerOutput = [
@@ -64,6 +80,18 @@ const totalOutput = programmerOutput.reduce(
     0,
 );
 ```
+
+**Why is this better?**
+
+-   No mutable variables
+
+-   More declarative - shows what we want to achieve
+
+-   Shorter and more expressive
+
+-   Easier to chain with other operations if needed
+
+-   Less prone to off-by-one errors
 
 ========== Id ==========  
 18

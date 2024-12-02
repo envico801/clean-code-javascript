@@ -2,9 +2,7 @@
 
 ### Are you using explanatory variables to simplify complex expressions?
 
-Break down complex expressions into smaller, well-named parts. This makes the code easier to understand and maintain by making each step's purpose clear.
-
-**Bad:**
+Look at this code. What makes it hard to understand?
 
 ```javascript
 const address = 'One Infinite Loop, Cupertino 95014';
@@ -13,13 +11,27 @@ saveCityZipCode(
     address.match(cityZipCodeRegex)[1],
     address.match(cityZipCodeRegex)[2],
 );
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How many times is the regex match performed?
+
+-   What do the array indices [1] and [2] represent?
+
+-   How could we make this code more readable?
+
+</details>  
 
 ========== Answer ==========  
 
-Using destructuring and intermediate variables makes complex operations more readable. Each step becomes self-documenting through clear variable names.
+**The Principle**:
 
-**Good:**
+Break down complex expressions into smaller, well-named parts to make the code's intent clear and avoid repeating operations.
+
+**Solution**:
 
 ```javascript
 const address = 'One Infinite Loop, Cupertino 95014';
@@ -27,6 +39,10 @@ const cityZipCodeRegex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/;
 const [_, city, zipCode] = address.match(cityZipCodeRegex) || [];
 saveCityZipCode(city, zipCode);
 ```
+
+**Why is this better?**
+
+We've used destructuring to give meaningful names to the regex matches and eliminated repeated operations. Each part of the code now clearly shows its purpose.
 
 ========== Id ==========  
 4

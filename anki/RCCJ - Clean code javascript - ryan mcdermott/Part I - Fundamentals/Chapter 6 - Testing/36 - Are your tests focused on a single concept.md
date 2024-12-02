@@ -2,9 +2,7 @@
 
 ### Are your tests focused on a single concept?
 
-Tests should be clear, focused, and test one specific concept or behavior. This makes tests easier to maintain, debug, and understand when they fail. Each test should tell a story about a specific behavior of your code.
-
-**Bad:**
+Look at this test code. What makes it hard to understand and maintain?
 
 ```javascript
 import assert from 'assert';
@@ -26,37 +24,69 @@ describe('MomentJS', () => {
         assert.equal('03/01/2015', date);
     });
 });
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What happens if one assertion fails? How easy is it to identify which case failed?
+
+-   How many different concepts are being tested in a single test?
+
+-   What's the story this test is trying to tell?
+
+-   How could you make the test's purpose clearer?
+
+</details>  
 
 ========== Answer ==========  
 
-By splitting the tests into separate cases, we make it clear what functionality is being tested and make it easier to identify which specific behavior has failed. Each test has a descriptive name that explains the exact scenario being tested.
+**The Principle**:
 
-**Good:**
+Tests should be clear, focused, and test one specific concept or behavior. This makes tests easier to maintain, debug, and understand when they fail. Each test should tell a story about a specific behavior of your code.
+
+**Solution**:
+
+Here's a better way to structure these tests:
 
 ```javascript
 import assert from 'assert';
 
-describe('MomentJS', () => {
-    it('handles 30-day months', () => {
-        const date = new MomentJS('1/1/2015');
-        date.addDays(30);
-        assert.equal('1/31/2015', date);
-    });
+describe('MomentJS date handling', () => {
+    describe('when adding days to a date', () => {
+        it('correctly handles the last day of a 31-day month', () => {
+            const date = new MomentJS('1/1/2015');
+            date.addDays(30);
+            assert.equal('1/31/2015', date);
+        });
 
-    it('handles leap year', () => {
-        const date = new MomentJS('2/1/2016');
-        date.addDays(28);
-        assert.equal('02/29/2016', date);
-    });
+        it('properly handles leap year February', () => {
+            const date = new MomentJS('2/1/2016');
+            date.addDays(28);
+            assert.equal('02/29/2016', date);
+        });
 
-    it('handles non-leap year', () => {
-        const date = new MomentJS('2/1/2015');
-        date.addDays(28);
-        assert.equal('03/01/2015', date);
+        it('correctly transitions to next month in non-leap year February', () => {
+            const date = new MomentJS('2/1/2015');
+            date.addDays(28);
+            assert.equal('03/01/2015', date);
+        });
     });
 });
 ```
+
+**Why is this better?**
+
+1. Each test has a single, clear purpose
+
+2. Test names clearly describe the behavior being tested
+
+3. When a test fails, you immediately know which scenario failed
+
+4. Tests are organized hierarchically by functionality
+
+5. Each test tells a complete story
 
 ========== Id ==========  
 36

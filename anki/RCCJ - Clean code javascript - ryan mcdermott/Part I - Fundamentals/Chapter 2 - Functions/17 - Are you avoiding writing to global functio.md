@@ -2,26 +2,42 @@
 
 ### Are you avoiding writing to global functions?
 
-Extending built-in objects through their prototypes (like Array, String, etc.) can lead to naming conflicts and unexpected behavior in your application, especially when multiple libraries are involved.
-
-**Reference**:
-
--   [https://github.com/ryanmcdermott/clean-code-javascript#dont-write-to-global-functions](https://github.com/ryanmcdermott/clean-code-javascript#dont-write-to-global-functions)
-
-**Bad:**
+What's problematic about this code's approach to extending Array functionality?
 
 ```javascript
 Array.prototype.diff = function diff(comparisonArray) {
     const hash = new Set(comparisonArray);
     return this.filter((elem) => !hash.has(elem));
 };
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What happens if different libraries try to add a `diff` method?
+
+-   Could this break existing code that uses arrays?
+
+-   How could we add this functionality without modifying the Array prototype?
+
+-   What's a more maintainable way to extend functionality?
+
+</details>  
 
 ========== Answer ==========  
 
-Use classes and inheritance to extend functionality instead of modifying global prototypes. This provides a cleaner, more maintainable way to add custom functionality.
+**The Principle**:
 
-**Good:**
+Extending built-in objects through their prototypes (like Array, String, etc.) can lead to naming conflicts and unexpected behavior in your application, especially when multiple libraries are involved.
+
+**Reference**:
+
+-   [https://github.com/ryanmcdermott/clean-code-javascript#dont-write-to-global-functions](https://github.com/ryanmcdermott/clean-code-javascript#dont-write-to-global-functions)
+
+**Solution**:
+
+Here's a safer way to implement this functionality:
 
 ```javascript
 class SuperArray extends Array {
@@ -31,6 +47,18 @@ class SuperArray extends Array {
     }
 }
 ```
+
+**Why is this better?**
+
+-   Doesn't modify global Array prototype
+
+-   Functionality is isolated to specific use cases
+
+-   No risk of naming conflicts with other libraries
+
+-   Clear where the enhanced functionality comes from
+
+-   Easier to maintain and test
 
 ========== Id ==========  
 17

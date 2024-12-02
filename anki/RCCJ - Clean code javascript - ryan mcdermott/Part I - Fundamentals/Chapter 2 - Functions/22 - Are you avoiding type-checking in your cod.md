@@ -2,6 +2,36 @@
 
 ### Are you avoiding type-checking in your code? (Part 1)
 
+Look at this code. What's wrong with it?
+
+```javascript
+function travelToTexas(vehicle) {
+    if (vehicle instanceof Bicycle) {
+        vehicle.pedal(this.currentLocation, new Location('texas'));
+    } else if (vehicle instanceof Car) {
+        vehicle.drive(this.currentLocation, new Location('texas'));
+    }
+}
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How many vehicle types might we need to handle in the future?
+
+-   What happens when we add a new vehicle type?
+
+-   Is there a way to make this more flexible?
+
+-   What common action are all vehicles performing?
+
+</details>  
+
+========== Answer ==========  
+
+**The Principle**:
+
 Type checking in JavaScript often indicates a design that could be improved through better abstraction and consistent interfaces. Instead of checking types, design your objects to support a common interface.
 
 Key principles:
@@ -12,29 +42,23 @@ Key principles:
 
 -   Design for behavior rather than type
 
-**Bad:**
-
-```javascript
-function travelToTexas(vehicle) {
-    if (vehicle instanceof Bicycle) {
-        vehicle.pedal(this.currentLocation, new Location('texas'));
-    } else if (vehicle instanceof Car) {
-        vehicle.drive(this.currentLocation, new Location('texas'));
-    }
-}
-```  
-
-========== Answer ==========  
-
-By implementing a common interface (move) across all vehicle types, we eliminate the need for type checking and create more maintainable, flexible code.
-
-**Good:**
+**Solution**:
 
 ```javascript
 function travelToTexas(vehicle) {
     vehicle.move(this.currentLocation, new Location('texas'));
 }
 ```
+
+**Why is this better?**
+
+-   Each vehicle type implements a common `move` method
+
+-   No need to modify this function when adding new vehicle types
+
+-   Cleaner, more maintainable code
+
+-   Better follows object-oriented principles
 
 ========== Id ==========  
 22

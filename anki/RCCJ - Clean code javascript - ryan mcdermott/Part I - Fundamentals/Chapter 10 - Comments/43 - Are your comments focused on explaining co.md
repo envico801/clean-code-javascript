@@ -2,9 +2,7 @@
 
 ### Are your comments focused on explaining complex business logic?
 
-Comments should explain the "why" behind complex business logic, not the "what" or "how" that should be evident from well-written code. Excessive comments often indicate that the code itself could be clearer or better structured.
-
-**Bad:**
+Look at this code. What's wrong with these comments?
 
 ```javascript
 function hashIt(data) {
@@ -22,13 +20,31 @@ function hashIt(data) {
         hash &= hash;
     }
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What value do these comments add?
+
+-   Are they explaining anything that isn't obvious from the code?
+
+-   What would be more useful to explain here?
+
+-   When should we actually use comments?
+
+</details>  
 
 ========== Answer ==========  
 
-The improved version removes redundant comments that simply describe what the code is doing. Only keep comments that explain complex algorithms or business decisions that aren't immediately obvious from the code.
+**The Principle:**
 
-**Good:**
+Comments should explain the "why" behind complex business logic, not the "what" or "how" that should be evident from well-written code. Excessive comments often indicate that the code itself could be clearer or better structured.
+
+**Solution**:
+
+Here's better use of comments:
 
 ```javascript
 function hashIt(data) {
@@ -43,6 +59,16 @@ function hashIt(data) {
     }
 }
 ```
+
+**Why is this better?**
+
+-   Removed comments that merely repeat what the code says
+
+-   Kept only the comment that explains the reasoning behind the 32-bit conversion
+
+-   The code is now cleaner and easier to read
+
+-   The remaining comment adds actual value by explaining the "why"
 
 ========== Id ==========  
 43

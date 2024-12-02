@@ -2,9 +2,7 @@
 
 ### Are you avoiding positional markers in your code?
 
-Positional markers or section dividers add visual noise without providing real value. Well-structured code with meaningful names and proper organization should make the code's structure clear without needing these artificial divisions.
-
-**Bad:**
+Look at this code. What's wrong with how it's organized?
 
 ```javascript
 ////////////////////////////////////////////////////////////////////////////////
@@ -21,15 +19,34 @@ $scope.model = {
 const actions = function () {
     // ...
 };
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What purpose do these dividers serve?
+
+-   Do they make the code more maintainable?
+
+-   How else could we make code structure clear?
+
+-   What happens when you need to add new sections?
+
+</details>  
 
 ========== Answer ==========  
 
-Instead of using visual markers, organize your code into well-named functions and modules. Use proper spacing and meaningful names to create natural visual structure.
+**The Principle:**
 
-**Good:**
+Positional markers or section dividers add visual noise without providing real value. Well-structured code with meaningful names and proper organization should make the code's structure clear without needing these artificial divisions.
+
+**Solution**:
+
+Here's how to better structure the code:
 
 ```javascript
+// Consider splitting into separate files if these are distinct concerns
 $scope.model = {
     menu: 'foo',
     nav: 'bar',
@@ -40,17 +57,19 @@ const actions = function () {
 };
 ```
 
-Best practices for comments:
+**Why is this better?**
 
-1. Use comments to explain complex business logic or algorithms
+-   No visual noise from ASCII dividers
 
-2. Write comments that explain "why" rather than "what"
+-   Better naming makes the purpose of each section clear
 
-3. Keep comments up-to-date with code changes
+-   Code organization is achieved through proper structure, not visual markers
 
-4. Use version control for tracking changes instead of comment-based histories
+-   Suggests better architectural decisions (like separating concerns into modules)
 
-5. Let well-structured code speak for itself through clear naming and organization
+-   Easier to maintain and modify without needing to update dividers
+
+**Remember**: If you need visual separation in your code, that might be a sign that your code should be split into separate modules or files. Let the natural structure of your code speak for itself through good naming and organization.
 
 ========== Id ==========  
 46

@@ -2,32 +2,48 @@
 
 ### Are you using default parameters instead of short-circuiting or conditionals?
 
-Default parameters provide a cleaner way to handle missing values in function parameters. They make the intended default value explicit in the function signature.
-
-**Reference**:
-
--   [https://github.com/ryanmcdermott/clean-code-javascript#use-default-parameters-instead-of-short-circuiting-or-conditionals](https://github.com/ryanmcdermott/clean-code-javascript#use-default-parameters-instead-of-short-circuiting-or-conditionals)
-
-**Bad:**
+Look at this code. What could be improved?
 
 ```javascript
 function createMicrobrewery(name) {
     const breweryName = name || 'Hipster Brew Co.';
     // ...
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What happens if name is an empty string?
+
+-   What happens if name is 0?
+
+-   Is there a clearer way to express the default value?
+
+</details>  
 
 ========== Answer ==========  
 
-ES6 default parameters make the code more intentional and clearer. They only trigger when the parameter is `undefined`, providing more predictable behavior than logical OR operations.
+**The Principle**:
 
-**Good:**
+Use ES6 default parameters to handle missing values instead of logical operators that might have unexpected behavior with falsy values.
+
+**Reference**:
+
+-   [https://github.com/ryanmcdermott/clean-code-javascript#use-default-parameters-instead-of-short-circuiting-or-conditionals](https://github.com/ryanmcdermott/clean-code-javascript#use-default-parameters-instead-of-short-circuiting-or-conditionals)
+
+**Solution**:
 
 ```javascript
 function createMicrobrewery(name = 'Hipster Brew Co.') {
     // ...
 }
 ```
+
+**Why is this better?**
+
+Default parameters only trigger when the value is `undefined`, providing more predictable behavior than the logical OR operator which can override any falsy value.
 
 ========== Id ==========  
 7

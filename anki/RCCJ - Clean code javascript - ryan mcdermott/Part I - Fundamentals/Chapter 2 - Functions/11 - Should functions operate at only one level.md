@@ -2,9 +2,7 @@
 
 ### Should functions operate at only one level of abstraction?
 
-Each function should work at a single level of abstraction. This means all operations within the function should be at a similar conceptual level, making the code easier to understand and maintain.
-
-**Bad:**
+What makes this code difficult to understand and maintain?
 
 ```javascript
 function parseBetterJSAlternative(code) {
@@ -29,13 +27,27 @@ function parseBetterJSAlternative(code) {
         // parse...
     });
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How many different operations are happening here?
+
+-   Are all these operations at the same conceptual level?
+
+-   How could we organize this to make the process clearer?
+
+</details>  
 
 ========== Answer ==========  
 
-Break down complex functions into smaller, focused functions where each function handles one level of abstraction. This makes the code more readable and maintainable by separating concerns.
+**The Principle**:
 
-**Good:**
+Each function should work at a single level of abstraction. This means all operations within the function should be at a similar conceptual level, making the code easier to understand and maintain.
+
+**Solution**:
 
 ```javascript
 function parseBetterJSAlternative(code) {
@@ -71,6 +83,16 @@ function parse(tokens) {
     return syntaxTree;
 }
 ```
+
+**Why is this better?**
+
+-   The main function now operates at a single, high level of abstraction
+
+-   Each operation has been broken into its own function with a clear purpose
+
+-   The code tells a story: tokenize → parse → return
+
+-   Each function handles one specific task at one specific level of detail
 
 ========== Id ==========  
 11

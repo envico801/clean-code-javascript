@@ -2,9 +2,7 @@
 
 ### Are you avoiding mental mapping in your code?
 
-Don't force readers to translate between different contexts. Using single-letter variables or abbreviated names requires the reader to mentally map these to their actual meaning.
-
-**Bad:**
+What's problematic about this code?
 
 ```javascript
 const locations = ['Austin', 'New York', 'San Francisco'];
@@ -17,13 +15,27 @@ locations.forEach((l) => {
     // Wait, what is `l` for again?
     dispatch(l);
 });
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What does 'l' represent?
+
+-   How much mental effort is needed to keep track of what 'l' means?
+
+-   What happens if you come back to this code after a few weeks?
+
+</details>  
 
 ========== Answer ==========  
 
-Use complete, descriptive variable names that don't require the reader to remember what abbreviations stand for. This makes code immediately understandable without having to scroll up to check variable meanings.
+**The Principle**:
 
-**Good:**
+Don't force readers to translate between different contexts. Using single-letter variables or abbreviated names requires the reader to mentally map these to their actual meaning.
+
+**Solution**:
 
 ```javascript
 const locations = ['Austin', 'New York', 'San Francisco'];
@@ -36,6 +48,10 @@ locations.forEach((location) => {
     dispatch(location);
 });
 ```
+
+**Why is this better?**
+
+Using the full word `location` instead of `l` makes the code immediately understandable without requiring any mental translation.
 
 ========== Id ==========  
 5

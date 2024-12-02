@@ -13,49 +13,66 @@
 | [5](#id5) | [Are you avoiding mental mapping in your co](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/5%20-%20Are%20you%20avoiding%20mental%20mapping%20in%20your%20co.md) | 1 | 1 |
 | [6](#id6) | [Are you avoiding unneeded context in your](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/6%20-%20Are%20you%20avoiding%20unneeded%20context%20in%20your.md) | 1 | 1 |
 | [7](#id7) | [Are you using default parameters instead o](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/7%20-%20Are%20you%20using%20default%20parameters%20instead%20o.md) | 1 | 1 |
-| [8](#id8) | [Do your functions have two or fewer argume](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/8%20-%20Do%20your%20functions%20have%20two%20or%20fewer%20argume.md) | 1 | 1 |
-| [9](#id9) | [Does each function do only one thing what](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/9%20-%20Does%20each%20function%20do%20only%20one%20thing%20what.md) | 1 | 1 |
-| [10](#id10) | [Does your function name clearly describe i](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/10%20-%20Does%20your%20function%20name%20clearly%20describe%20i.md) | 1 | 1 |
-| [11](#id11) | [Should functions operate at only one level](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/11%20-%20Should%20functions%20operate%20at%20only%20one%20level.md) | 1 | 1 |
-| [12](#id12) | [Have you removed duplicate code look at t](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/12%20-%20Have%20you%20removed%20duplicate%20code%20look%20at%20t.md) | 1 | 1 |
-| [13](#id13) | [Are you setting default objects with obje](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/13%20-%20Are%20you%20setting%20default%20objects%20with%20obje.md) | 1 | 1 |
-| [14](#id14) | [Are you using function flags appropriately](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/14%20-%20Are%20you%20using%20function%20flags%20appropriately.md) | 1 | 1 |
-| [15](#id15) | [Are you avoiding side effects in your func](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/15%20-%20Are%20you%20avoiding%20side%20effects%20in%20your%20func.md) | 1 | 1 |
-| [16](#id16) | [Are you avoiding side effects in your func](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/16%20-%20Are%20you%20avoiding%20side%20effects%20in%20your%20func.md) | 1 | 1 |
-| [17](#id17) | [Are you avoiding writing to global functio](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/17%20-%20Are%20you%20avoiding%20writing%20to%20global%20functio.md) | 1 | 1 |
-| [18](#id18) | [Are you favoring functional programming ov](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/18%20-%20Are%20you%20favoring%20functional%20programming%20ov.md) | 1 | 1 |
-| [19](#id19) | [Are you encapsulating conditionals for bet](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/19%20-%20Are%20you%20encapsulating%20conditionals%20for%20bet.md) | 1 | 1 |
-| [20](#id20) | [Are you avoiding negative conditionals wh](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/20%20-%20Are%20you%20avoiding%20negative%20conditionals%20wh.md) | 1 | 1 |
-| [21](#id21) | [Are you reducing conditionals in your code](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/21%20-%20Are%20you%20reducing%20conditionals%20in%20your%20code.md) | 1 | 1 |
-| [22](#id22) | [Are you avoiding type-checking in your cod](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/22%20-%20Are%20you%20avoiding%20type-checking%20in%20your%20cod.md) | 1 | 1 |
-| [23](#id23) | [Are you avoiding type-checking in your cod](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/23%20-%20Are%20you%20avoiding%20type-checking%20in%20your%20cod.md) | 1 | 1 |
-| [24](#id24) | [Are you avoiding premature optimization l](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/24%20-%20Are%20you%20avoiding%20premature%20optimization%20l.md) | 1 | 1 |
-| [25](#id25) | [Have you removed dead code from your codeb](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/25%20-%20Have%20you%20removed%20dead%20code%20from%20your%20codeb.md) | 1 | 1 |
-| [26](#id26) | [Are you using getters and setters effectiv](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/26%20-%20Are%20you%20using%20getters%20and%20setters%20effectiv.md) | 1 | 1 |
-| [27](#id27) | [Are your object members private look at t](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/27%20-%20Are%20your%20object%20members%20private%20look%20at%20t.md) | 1 | 1 |
-| [28](#id28) | [Are you preferring es2015-es6 classes over](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/28%20-%20Are%20you%20preferring%20es2015-es6%20classes%20over.md) | 1 | 1 |
-| [29](#id29) | [Are you using method chaining for fluent i](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/29%20-%20Are%20you%20using%20method%20chaining%20for%20fluent%20i.md) | 1 | 1 |
-| [30](#id30) | [Are you favoring composition over inherita](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/30%20-%20Are%20you%20favoring%20composition%20over%20inherita.md) | 1 | 1 |
-| [31](#id31) | [Are you following the single responsibilit](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/31%20-%20Are%20you%20following%20the%20single%20responsibilit.md) | 1 | 1 |
-| [32](#id32) | [Are you adhering to the open-closed princi](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/32%20-%20Are%20you%20adhering%20to%20the%20open-closed%20princi.md) | 1 | 1 |
-| [33](#id33) | [Are you following the liskov substitution](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/33%20-%20Are%20you%20following%20the%20liskov%20substitution.md) | 1 | 1 |
-| [34](#id34) | [Are you adhering to the interface segregat](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/34%20-%20Are%20you%20adhering%20to%20the%20interface%20segregat.md) | 1 | 1 |
-| [35](#id35) | [Are you applying the dependency inversion](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/35%20-%20Are%20you%20applying%20the%20dependency%20inversion.md) | 1 | 1 |
-| [36](#id36) | [Are your tests focused on a single concept](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/36%20-%20Are%20your%20tests%20focused%20on%20a%20single%20concept.md) | 1 | 1 |
-| [37](#id37) | [Are you using promises instead of callback](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/37%20-%20Are%20you%20using%20promises%20instead%20of%20callback.md) | 1 | 1 |
-| [38](#id38) | [Are you using async-await for even cleaner](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/38%20-%20Are%20you%20using%20async-await%20for%20even%20cleaner.md) | 1 | 1 |
-| [39](#id39) | [Are you properly handling caught errors l](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/39%20-%20Are%20you%20properly%20handling%20caught%20errors%20l.md) | 1 | 1 |
-| [40](#id40) | [Are you handling rejected promises correct](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/40%20-%20Are%20you%20handling%20rejected%20promises%20correct.md) | 1 | 1 |
-| [41](#id41) | [Are you maintaining consistent capitalizat](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/41%20-%20Are%20you%20maintaining%20consistent%20capitalizat.md) | 1 | 1 |
-| [42](#id42) | [Are function callers and callees located c](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/42%20-%20Are%20function%20callers%20and%20callees%20located%20c.md) | 1 | 1 |
-| [43](#id43) | [Are your comments focused on explaining co](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/43%20-%20Are%20your%20comments%20focused%20on%20explaining%20co.md) | 1 | 1 |
-| [44](#id44) | [Have you removed commented-out code from y](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/44%20-%20Have%20you%20removed%20commented-out%20code%20from%20y.md) | 1 | 1 |
-| [45](#id45) | [Are you avoiding journal comments in your](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/45%20-%20Are%20you%20avoiding%20journal%20comments%20in%20your.md) | 1 | 1 |
-| [46](#id46) | [Are you avoiding positional markers in you](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%201%20-%20Variables/46%20-%20Are%20you%20avoiding%20positional%20markers%20in%20you.md) | 1 | 1 |
+| **-** | **Fundamentals > Functions** | **1** | **2** |
+| [8](#id8) | [Do your functions have two or fewer argume](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/8%20-%20Do%20your%20functions%20have%20two%20or%20fewer%20argume.md) | 1 | 2 |
+| [9](#id9) | [Does each function do only one thing what](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/9%20-%20Does%20each%20function%20do%20only%20one%20thing%20what.md) | 1 | 2 |
+| [10](#id10) | [Does your function name clearly describe i](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/10%20-%20Does%20your%20function%20name%20clearly%20describe%20i.md) | 1 | 2 |
+| [11](#id11) | [Should functions operate at only one level](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/11%20-%20Should%20functions%20operate%20at%20only%20one%20level.md) | 1 | 2 |
+| [12](#id12) | [Have you removed duplicate code look at t](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/12%20-%20Have%20you%20removed%20duplicate%20code%20look%20at%20t.md) | 1 | 2 |
+| [13](#id13) | [Are you setting default objects with obje](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/13%20-%20Are%20you%20setting%20default%20objects%20with%20obje.md) | 1 | 2 |
+| [14](#id14) | [Are you using function flags appropriately](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/14%20-%20Are%20you%20using%20function%20flags%20appropriately.md) | 1 | 2 |
+| [15](#id15) | [Are you avoiding side effects in your func](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/15%20-%20Are%20you%20avoiding%20side%20effects%20in%20your%20func.md) | 1 | 2 |
+| [16](#id16) | [Are you avoiding side effects in your func](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/16%20-%20Are%20you%20avoiding%20side%20effects%20in%20your%20func.md) | 1 | 2 |
+| [17](#id17) | [Are you avoiding writing to global functio](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/17%20-%20Are%20you%20avoiding%20writing%20to%20global%20functio.md) | 1 | 2 |
+| [18](#id18) | [Are you favoring functional programming ov](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/18%20-%20Are%20you%20favoring%20functional%20programming%20ov.md) | 1 | 2 |
+| [19](#id19) | [Are you encapsulating conditionals for bet](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/19%20-%20Are%20you%20encapsulating%20conditionals%20for%20bet.md) | 1 | 2 |
+| [20](#id20) | [Are you avoiding negative conditionals wh](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/20%20-%20Are%20you%20avoiding%20negative%20conditionals%20wh.md) | 1 | 2 |
+| [21](#id21) | [Are you reducing conditionals in your code](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/21%20-%20Are%20you%20reducing%20conditionals%20in%20your%20code.md) | 1 | 2 |
+| [22](#id22) | [Are you avoiding type-checking in your cod](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/22%20-%20Are%20you%20avoiding%20type-checking%20in%20your%20cod.md) | 1 | 2 |
+| [23](#id23) | [Are you avoiding type-checking in your cod](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/23%20-%20Are%20you%20avoiding%20type-checking%20in%20your%20cod.md) | 1 | 2 |
+| [24](#id24) | [Are you avoiding premature optimization l](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/24%20-%20Are%20you%20avoiding%20premature%20optimization%20l.md) | 1 | 2 |
+| [25](#id25) | [Have you removed dead code from your codeb](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%202%20-%20Functions/25%20-%20Have%20you%20removed%20dead%20code%20from%20your%20codeb.md) | 1 | 2 |
+| **-** | **Fundamentals > Objects and Data Structures** | **1** | **3** |
+| [26](#id26) | [Are you using getters and setters effectiv](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%203%20-%20Objects%20and%20Data%20Structures/26%20-%20Are%20you%20using%20getters%20and%20setters%20effectiv.md) | 1 | 3 |
+| [27](#id27) | [Are your object members private look at t](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%203%20-%20Objects%20and%20Data%20Structures/27%20-%20Are%20your%20object%20members%20private%20look%20at%20t.md) | 1 | 3 |
+| **-** | **Fundamentals > Classes** | **1** | **4** |
+| [28](#id28) | [Are you preferring es2015-es6 classes over](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/28%20-%20Are%20you%20preferring%20es2015-es6%20classes%20over.md) | 1 | 4 |
+| [29](#id29) | [Are you using method chaining for fluent i](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/29%20-%20Are%20you%20using%20method%20chaining%20for%20fluent%20i.md) | 1 | 4 |
+| [30](#id30) | [Are you favoring composition over inherita](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%204%20-%20Classes/30%20-%20Are%20you%20favoring%20composition%20over%20inherita.md) | 1 | 4 |
+| **-** | **Fundamentals > SOLID** | **1** | **5** |
+| [31](#id31) | [Are you following the single responsibilit](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/31%20-%20Are%20you%20following%20the%20single%20responsibilit.md) | 1 | 5 |
+| [32](#id32) | [Are you adhering to the open-closed princi](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/32%20-%20Are%20you%20adhering%20to%20the%20open-closed%20princi.md) | 1 | 5 |
+| [33](#id33) | [Are you following the liskov substitution](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/33%20-%20Are%20you%20following%20the%20liskov%20substitution.md) | 1 | 5 |
+| [34](#id34) | [Are you adhering to the interface segregat](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/34%20-%20Are%20you%20adhering%20to%20the%20interface%20segregat.md) | 1 | 5 |
+| [35](#id35) | [Are you applying the dependency inversion](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%205%20-%20SOLID/35%20-%20Are%20you%20applying%20the%20dependency%20inversion.md) | 1 | 5 |
+| **-** | **Fundamentals > Testing** | **1** | **6** |
+| [36](#id36) | [Are your tests focused on a single concept](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%206%20-%20Testing/36%20-%20Are%20your%20tests%20focused%20on%20a%20single%20concept.md) | 1 | 6 |
+| **-** | **Fundamentals > Concurrency** | **1** | **7** |
+| [37](#id37) | [Are you using promises instead of callback](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/37%20-%20Are%20you%20using%20promises%20instead%20of%20callback.md) | 1 | 7 |
+| [38](#id38) | [Are you using async-await for even cleaner](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/38%20-%20Are%20you%20using%20async-await%20for%20even%20cleaner.md) | 1 | 7 |
+| [39](#id39) | [Are you properly handling caught errors l](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/39%20-%20Are%20you%20properly%20handling%20caught%20errors%20l.md) | 1 | 7 |
+| [40](#id40) | [Are you handling rejected promises correct](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/40%20-%20Are%20you%20handling%20rejected%20promises%20correct.md) | 1 | 7 |
+| [41](#id41) | [Are you maintaining consistent capitalizat](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/41%20-%20Are%20you%20maintaining%20consistent%20capitalizat.md) | 1 | 7 |
+| [42](#id42) | [Are function callers and callees located c](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%207%20-%20Concurrency/42%20-%20Are%20function%20callers%20and%20callees%20located%20c.md) | 1 | 7 |
+| **-** | **Fundamentals > Comments** | **1** | **10** |
+| [43](#id43) | [Are your comments focused on explaining co](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/43%20-%20Are%20your%20comments%20focused%20on%20explaining%20co.md) | 1 | 10 |
+| [44](#id44) | [Have you removed commented-out code from y](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/44%20-%20Have%20you%20removed%20commented-out%20code%20from%20y.md) | 1 | 10 |
+| [45](#id45) | [Are you avoiding journal comments in your](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/45%20-%20Are%20you%20avoiding%20journal%20comments%20in%20your.md) | 1 | 10 |
+| [46](#id46) | [Are you avoiding positional markers in you](./RCCJ%20-%20Clean%20code%20javascript%20-%20ryan%20mcdermott/Part%20I%20-%20Fundamentals/Chapter%2010%20-%20Comments/46%20-%20Are%20you%20avoiding%20positional%20markers%20in%20you.md) | 1 | 10 |
 
 ### Part I - Fundamentals
 
 #### Chapter 1 - **Variables**
+
+![Humorous image of software quality estimation as a count of how many expletives you shout when reading code](https://www.osnews.com/images/comics/wtfm.jpg)
+
+Software engineering principles, from Robert C. Martin's book [_Clean Code_](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882), adapted for JavaScript. This is not a style guide. It's a guide to producing [readable, reusable, and refactorable](https://github.com/ryanmcdermott/3rs-of-software-architecture) software in JavaScript.
+
+Not every principle herein has to be strictly followed, and even fewer will be universally agreed upon. These are guidelines and nothing more, but they are ones codified over many years of collective experience by the authors of _Clean Code_.
+
+Our craft of software engineering is just a bit over 50 years old, and we are still learning a lot. When software architecture is as old as architecture itself, maybe then we will have harder rules to follow. For now, let these guidelines serve as a touchstone by which to assess the quality of the JavaScript code that you and your team produce.
+
+One more thing: knowing these won't immediately make you a better software developer, and working with them for many years doesn't mean you won't make mistakes. Every piece of code starts as a first draft, like wet clay getting shaped into its final form. Finally, we chisel away the imperfections when we review it with our peers. Don't beat yourself up for first drafts that need improvement. Beat up the code instead!
 
 Q:: =============================================  
 
@@ -370,6 +387,8 @@ function createMicrobrewery(name = "Hipster Brew Co.") {
 **Why is this better?**
 
 Default parameters only trigger when the value is `undefined`, providing more predictable behavior than the logical OR operator which can override any falsy value.
+
+#### Chapter 2 - **Functions**
 
 Q:: =============================================  
 
@@ -1535,6 +1554,8 @@ inventoryTracker("apples", req, "www.inventory-awesome.io");
 - Smaller, more maintainable codebase
 - Old code is still available in version control if needed
 
+#### Chapter 3 - **Objects and Data Structures**
+
 Q:: =============================================  
 
 ##### Are you using getters and setters effectively?
@@ -1690,6 +1711,8 @@ console.log(`Employee name: ${employee.getName()}`); // Employee name: John Doe
 - Clear interface for accessing data
 - Better encapsulation
 - More robust and secure code
+
+#### Chapter 4 - **Classes**
 
 Q:: =============================================  
 
@@ -2002,6 +2025,8 @@ class Employee {
 - Easier to modify either class independently
 - Better encapsulation
 - Follows "has-a" relationship pattern
+
+#### Chapter 5 - **SOLID**
 
 Q:: =============================================  
 
@@ -2538,6 +2563,12 @@ wsTracker.requestItems();
 3. Testing becomes easier as we can mock the requester
 4. New request methods can be added without modifying existing code
 
+#### Chapter 6 - **Testing**
+
+Testing is more important than shipping. If you have no tests or an inadequate amount, then every time you ship code you won't be sure that you didn't break anything. Deciding on what constitutes an adequate amount is up to your team, but having 100% coverage (all statements and branches) is how you achieve very high confidence and developer peace of mind. This means that in addition to having a great testing framework, you also need to use a [good coverage tool](https://gotwarlost.github.io/istanbul/).
+
+There's no excuse to not write tests. There are [plenty of good JS test frameworks](https://jstherightway.org/#testing-tools), so find one that your team prefers. When you find one that works for your team, then aim to always write tests for every new feature/module you introduce. If your preferred method is Test Driven Development (TDD), that is great, but the main point is to just make sure you are reaching your coverage goals before launching any feature, or refactoring an existing one.
+
 Q:: =============================================  
 
 ##### Are your tests focused on a single concept?
@@ -2620,6 +2651,8 @@ describe("MomentJS date handling", () => {
 3. When a test fails, you immediately know which scenario failed
 4. Tests are organized hierarchically by functionality
 5. Each test tells a complete story
+
+#### Chapter 7 - **Concurrency**
 
 Q:: =============================================  
 
@@ -2751,6 +2784,8 @@ The code reads like synchronous code while maintaining asynchronous behavior. Th
 
 ### Chapter 8 - Error Handling
 
+Thrown errors are a good thing! They mean the runtime has successfully identified when something in your program has gone wrong, and it's letting you know by stopping function execution on the current stack, killing the process (in Node), and notifying you in the console with a stack trace.
+
 Q:: =============================================  
 
 ##### Are you properly handling caught errors?
@@ -2868,6 +2903,10 @@ getdata()
 This approach provides comprehensive error handling with proper logging, user feedback, and the possibility of recovery strategies like retrying operations.
 
 ### Chapter 9 - Formatting
+
+Formatting is subjective. Like many rules herein, there is no hard and fast rule that you must follow. The main point is DO NOT ARGUE over formatting. There are [tons of tools](https://standardjs.com/rules.html) to automate this. Use one! It's a waste of time and money for engineers to argue over formatting.
+
+For things that don't fall under the purview of automatic formatting (indentation, tabs vs. spaces, double vs. single quotes, etc.) look here for some guidance.
 
 Q:: =============================================  
 
@@ -3045,6 +3084,8 @@ review.perfReview();
 - Helper functions are grouped with the functions that call them
 - Related functions are kept together (e.g., `getManagerReview` next to `lookupManager`)
 - The code flows more naturally, reducing the need to jump around while reading
+
+#### Chapter 10 - **Comments**
 
 Q:: =============================================  
 

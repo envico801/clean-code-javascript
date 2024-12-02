@@ -2,21 +2,37 @@
 
 ### Are you encapsulating conditionals for better readability?
 
-Complex conditional statements can make code harder to read and understand. Extracting conditions into well-named functions improves code readability and reusability.
-
-**Bad:**
+What could make this conditional easier to understand?
 
 ```javascript
 if (fsm.state === 'fetching' && isEmpty(listNode)) {
     // ...
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What is this condition actually checking for?
+
+-   How could we make the intent clearer?
+
+-   Could we extract this logic into a well-named function?
+
+-   How would this help with code reuse?
+
+</details>  
 
 ========== Answer ==========  
 
-Create functions with descriptive names that encapsulate the conditional logic. This makes the code self-documenting and easier to maintain.
+**The Principle**:
 
-**Good:**
+Complex conditional statements can make code harder to read and understand. Extracting conditions into well-named functions improves code readability and reusability.
+
+**Solution**:
+
+Here's a clearer way to write it:
 
 ```javascript
 function shouldShowSpinner(fsm, listNode) {
@@ -27,6 +43,18 @@ if (shouldShowSpinner(fsmInstance, listNodeInstance)) {
     // ...
 }
 ```
+
+**Why is this better?**
+
+-   The condition's purpose is immediately clear
+
+-   Logic can be reused elsewhere
+
+-   Easier to test the condition independently
+
+-   More self-documenting code
+
+-   Easier to modify the condition if requirements change
 
 ========== Id ==========  
 19

@@ -2,13 +2,7 @@
 
 ### Have you removed duplicate code?
 
-Code duplication is one of the biggest enemies of maintainable software. When code is duplicated, changes need to be made in multiple places, increasing the chance of errors and making maintenance more difficult.
-
-**Reference**:
-
--   [https://github.com/ryanmcdermott/clean-code-javascript#remove-duplicate-code](https://github.com/ryanmcdermott/clean-code-javascript#remove-duplicate-code)
-
-**Bad:**
+Look at this code. What problems can you spot?
 
 ```javascript
 function showDeveloperList(developers) {
@@ -40,13 +34,33 @@ function showManagerList(managers) {
         render(data);
     });
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What code is being repeated in both functions?
+
+-   Could these functions be combined?
+
+-   How could we handle the differences between developers and managers?
+
+</details>  
 
 ========== Answer ==========  
 
-Create abstractions that handle the common functionality while accommodating differences through polymorphism or conditional logic. This reduces code duplication and makes the codebase easier to maintain.
+**The Principle**:
 
-**Good:**
+Code duplication is one of the biggest enemies of maintainable software. When code is duplicated, changes need to be made in multiple places, increasing the chance of errors.
+
+**Reference**:
+
+-   [https://github.com/ryanmcdermott/clean-code-javascript#remove-duplicate-code](https://github.com/ryanmcdermott/clean-code-javascript#remove-duplicate-code)
+
+**Solution**:
+
+Here's a better way to write it:
 
 ```javascript
 function showEmployeeList(employees) {
@@ -73,6 +87,16 @@ function showEmployeeList(employees) {
 }
 ```
 
+**Why is this better?**
+
+-   Common code is now in one place
+
+-   Employee-specific data is handled through a switch statement
+
+-   Only one function to maintain and update
+
+-   Easier to add new employee types in the future
+
 ========== Id ==========  
 12
 
@@ -82,7 +106,7 @@ DECK INFO
 
 TARGET DECK: Javascript::Coding best practices::RCCJ - Clean code javascript - ryan mcdermott::Part I - Fundamentals::Chapter 2 - Functions
 
-FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-2-Functions::#12-Have-you-removed-duplicate-code-code-dupl
+FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-2-Functions::#12-Have-you-removed-duplicate-code-look-at-t
 
 Tags:
 

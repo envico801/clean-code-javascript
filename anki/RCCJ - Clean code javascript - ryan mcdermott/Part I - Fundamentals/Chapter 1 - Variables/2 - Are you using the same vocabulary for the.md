@@ -2,25 +2,41 @@
 
 ### Are you using the same vocabulary for the same type of variable?
 
-When referring to the same type of data or operation, maintain consistency in your naming conventions throughout your codebase. This reduces cognitive load and makes the code more predictable.
-
-**Bad:**
+Look at this code. What's wrong with it?
 
 ```javascript
 getUserInfo();
 getClientData();
 getCustomerRecord();
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What concept do all these functions deal with?
+
+-   Is the naming consistent?
+
+-   How could this create confusion for other developers?
+
+</details>  
 
 ========== Answer ==========  
 
-Choose one term and stick with it. If you decide to use `user`, use it consistently throughout your application instead of mixing terms like `client` or `customer` for the same concept.
+**The Principle**:
 
-**Good:**
+When referring to the same type of data or operation, maintain consistency in your naming conventions throughout your codebase. This reduces cognitive load and makes the code more predictable.
+
+**Solution**:
 
 ```javascript
 getUser();
 ```
+
+**Why is this better?**
+
+We've chosen one term (`user`) and used it consistently. This avoids confusion about whether a `client`, `customer`, or `user` might be handled differently.
 
 ========== Id ==========  
 2

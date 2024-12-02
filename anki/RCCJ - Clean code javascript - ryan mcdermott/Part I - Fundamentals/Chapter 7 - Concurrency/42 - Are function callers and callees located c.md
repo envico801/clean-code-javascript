@@ -2,9 +2,7 @@
 
 ### Are function callers and callees located close to each other?
 
-Code organization impacts readability and maintainability. Functions that work together should be located close to each other in the source file. This principle follows natural reading patterns and makes it easier to understand the flow of the program.
-
-**Bad:**
+Look at this code. Can you spot the problems with its organization?
 
 ```javascript
 class PerformanceReview {
@@ -42,21 +40,31 @@ class PerformanceReview {
 
 const review = new PerformanceReview(employee);
 review.perfReview();
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How are related functions positioned relative to each other?
+
+-   Which functions call other functions?
+
+-   How many times do you need to scroll up and down to understand the flow?
+
+-   What would make the code easier to read?
+
+</details>  
 
 ========== Answer ==========  
 
-Organizing related functions close together improves code readability by:
+**The Principle:**
 
--   Making the code flow more natural to follow
+Code organization impacts readability and maintainability. Functions that work together should be located close to each other in the source file. This principle follows natural reading patterns and makes it easier to understand the flow of the program.
 
--   Reducing the need to jump around the file
+**Solution**:
 
--   Making relationships between functions more obvious
-
--   Facilitating easier code maintenance and updates
-
-**Good:**
+Here's how to better organize the code:
 
 ```javascript
 class PerformanceReview {
@@ -98,6 +106,16 @@ const review = new PerformanceReview(employee);
 review.perfReview();
 ```
 
+**Why is this better?**
+
+-   The main workflow function (`perfReview`) is at the top
+
+-   Helper functions are grouped with the functions that call them
+
+-   Related functions are kept together (e.g., `getManagerReview` next to `lookupManager`)
+
+-   The code flows more naturally, reducing the need to jump around while reading
+
 ========== Id ==========  
 42
 
@@ -105,9 +123,9 @@ review.perfReview();
 
 DECK INFO
 
-TARGET DECK: Javascript::Coding best practices::RCCJ - Clean code javascript - ryan mcdermott::Part I - Fundamentals::Chapter 9 - Formatting
+TARGET DECK: Javascript::Coding best practices::RCCJ - Clean code javascript - ryan mcdermott::Part I - Fundamentals::Chapter 7 - Concurrency
 
-FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-9-Formatting::#42-Are-function-callers-and-callees-located-c
+FILE TAGS: #Javascript::#Coding-best-practices::#RCCJ-Clean-code-javascript-ryan-mcdermott::#Part-I-Fundamentals::#Chapter-7-Concurrency::#42-Are-function-callers-and-callees-located-c
 
 Tags:
 

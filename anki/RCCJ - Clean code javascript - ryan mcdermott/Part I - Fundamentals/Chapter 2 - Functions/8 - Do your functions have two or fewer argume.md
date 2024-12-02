@@ -2,13 +2,7 @@
 
 ### Do your functions have two or fewer arguments?
 
-Having too many function parameters makes your code harder to test and maintain. Each additional parameter exponentially increases the number of test cases needed.
-
-**Reference**:
-
--   [https://github.com/ryanmcdermott/clean-code-javascript#function-arguments-2-or-fewer-ideally](https://github.com/ryanmcdermott/clean-code-javascript#function-arguments-2-or-fewer-ideally)
-
-**Bad:**
+What makes this function call difficult to work with?
 
 ```javascript
 function createMenu(title, body, buttonText, cancellable) {
@@ -16,13 +10,31 @@ function createMenu(title, body, buttonText, cancellable) {
 }
 
 createMenu('Foo', 'Bar', 'Baz', true);
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How easy is it to remember the order of parameters?
+
+-   What happens if you want to add more options?
+
+-   How would you skip optional parameters?
+
+</details>  
 
 ========== Answer ==========  
 
-Use object destructuring when you need multiple parameters. This makes the function call more readable and allows for optional parameters without maintaining a specific order.
+**The Principle**:
 
-**Good:**
+Having too many function parameters makes your code harder to test and maintain. Each additional parameter exponentially increases the number of test cases needed.
+
+**Reference**:
+
+-   [https://github.com/ryanmcdermott/clean-code-javascript#function-arguments-2-or-fewer-ideally](https://github.com/ryanmcdermott/clean-code-javascript#function-arguments-2-or-fewer-ideally)
+
+**Solution**:
 
 ```javascript
 function createMenu({ title, body, buttonText, cancellable }) {
@@ -36,6 +48,10 @@ createMenu({
     cancellable: true,
 });
 ```
+
+**Why is this better?**
+
+Using an object with named parameters makes the function call self-documenting, allows optional parameters, and doesn't require remembering parameter order.
 
 ========== Id ==========  
 8

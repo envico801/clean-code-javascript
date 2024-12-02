@@ -2,21 +2,7 @@
 
 ### Are you using method chaining for fluent interfaces?
 
-Method chaining is a pattern that allows multiple methods to be called in a single statement, making code more fluent and expressive. This pattern is commonly seen in libraries like jQuery and Lodash.
-
-Key benefits of method chaining:
-
--   More readable and expressive code
-
--   Reduced variable declarations
-
--   Fluent interface
-
--   Compact syntax
-
--   Better code flow
-
-**Bad:**
+Look at this code. What's wrong with it?
 
 ```javascript
 class Car {
@@ -45,14 +31,43 @@ class Car {
 
 const car = new Car('Ford', 'F-150', 'red');
 car.setColor('pink');
+car.setModel('Mustang');
 car.save();
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How many lines of code are needed to modify the car?
+
+-   Is there a way to make this more fluent?
+
+-   What do popular libraries like jQuery do?
+
+-   What needs to be returned from each method?
+
+</details>  
 
 ========== Answer ==========  
 
-Method chaining creates a more fluent interface by returning `this` from each method, allowing multiple operations to be chained together.
+**The Principle**:
 
-**Good:**
+Method chaining is a pattern that allows multiple methods to be called in a single statement, making code more fluent and expressive. This pattern is commonly seen in libraries like jQuery and Lodash.
+
+Key benefits of method chaining:
+
+-   More readable and expressive code
+
+-   Reduced variable declarations
+
+-   Fluent interface
+
+-   Compact syntax
+
+-   Better code flow
+
+**Solution**:
 
 ```javascript
 class Car {
@@ -83,8 +98,23 @@ class Car {
     }
 }
 
-const car = new Car('Ford', 'F-150', 'red').setColor('pink').save();
+const car = new Car('Ford', 'F-150', 'red')
+    .setColor('pink')
+    .setModel('Mustang')
+    .save();
 ```
+
+**Why is this better?**
+
+-   More fluent and readable
+
+-   Fewer lines of code
+
+-   More expressive API
+
+-   Enables operation chaining
+
+-   Follows builder pattern principles
 
 ========== Id ==========  
 29

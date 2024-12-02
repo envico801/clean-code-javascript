@@ -2,13 +2,7 @@
 
 ### Are you following the Liskov Substitution Principle (LSP)?
 
-The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application. In simpler terms, child classes must be able to do everything their parent class can do.
-
-**Reference**:
-
--   [https://github.com/ryanmcdermott/clean-code-javascript#liskov-substitution-principle-lsp](https://github.com/ryanmcdermott/clean-code-javascript#liskov-substitution-principle-lsp)
-
-**Bad:**
+Look at this code. Can you spot what's wrong with this inheritance relationship?
 
 ```javascript
 class Rectangle {
@@ -62,13 +56,35 @@ function renderLargeRectangles(rectangles) {
 
 const rectangles = [new Rectangle(), new Rectangle(), new Square()];
 renderLargeRectangles(rectangles);
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What happens when you set width=4 and height=5 on a Square?
+
+-   Should a Square really extend Rectangle?
+
+-   What assumptions might programmers make about a Rectangle?
+
+-   Is a Square really behaving like a Rectangle in all situations?
+
+</details>  
 
 ========== Answer ==========  
 
-The solution creates a proper hierarchy where each shape handles its own properties correctly through a common interface. This respects LSP because each shape can be used interchangeably when calculating and rendering areas.
+**The Principle**:
 
-**Good:**
+The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of its subclasses without breaking the application. In other words, if it looks like a duck and quacks like a duck but needs batteries, you probably have the wrong abstraction!
+
+**Reference**:
+
+-   [https://github.com/ryanmcdermott/clean-code-javascript#liskov-substitution-principle-lsp](https://github.com/ryanmcdermott/clean-code-javascript#liskov-substitution-principle-lsp)
+
+**Solution**:
+
+Here's a better way to model these shapes:
 
 ```javascript
 class Shape {
@@ -114,6 +130,16 @@ function renderLargeShapes(shapes) {
 const shapes = [new Rectangle(4, 5), new Rectangle(4, 5), new Square(5)];
 renderLargeShapes(shapes);
 ```
+
+**Why is this better?**
+
+1. Each shape manages its own properties correctly
+
+2. Square and Rectangle are separate types with a common ancestor
+
+3. No unexpected behavior when calculating areas
+
+4. The code follows "tell, don't ask" principle
 
 ========== Id ==========  
 33

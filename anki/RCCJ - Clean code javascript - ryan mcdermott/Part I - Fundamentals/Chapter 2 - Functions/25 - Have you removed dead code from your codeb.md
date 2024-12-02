@@ -2,19 +2,7 @@
 
 ### Have you removed dead code from your codebase?
 
-Dead code is code that's no longer used but remains in the codebase. It creates confusion, increases maintenance burden, and can lead to bugs. Version control systems like Git already maintain your code history, making it safe to remove unused code.
-
-Key reasons to remove dead code:
-
--   Reduces cognitive load when reading code
-
--   Decreases maintenance burden
-
--   Prevents confusion about which code path is actually used
-
--   Makes the codebase smaller and more manageable
-
-**Bad:**
+Look at this code. What's wrong with it?
 
 ```javascript
 function oldRequestModule(url) {
@@ -27,13 +15,39 @@ function newRequestModule(url) {
 
 const req = newRequestModule;
 inventoryTracker('apples', req, 'www.inventory-awesome.io');
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   Which functions are actually being used?
+
+-   What happens if someone tries to use the old function?
+
+-   How does keeping unused code affect maintainability?
+
+-   Where can you find old code if you need it later?
+
+</details>  
 
 ========== Answer ==========  
 
-Keep only the code that's actively being used. If you need to reference old code later, you can always find it in your version control history.
+**The Principle**:
 
-**Good:**
+Dead code is code that's no longer used but remains in the codebase. It creates confusion, increases maintenance burden, and can lead to bugs. Version control systems like Git already maintain your code history, making it safe to remove unused code.
+
+Key reasons to remove dead code:
+
+-   Reduces cognitive load when reading code
+
+-   Decreases maintenance burden
+
+-   Prevents confusion about which code path is actually used
+
+-   Makes the codebase smaller and more manageable
+
+**Solution**:
 
 ```javascript
 function newRequestModule(url) {
@@ -43,6 +57,16 @@ function newRequestModule(url) {
 const req = newRequestModule;
 inventoryTracker('apples', req, 'www.inventory-awesome.io');
 ```
+
+**Why is this better?**
+
+-   Clearer intent - only shows what's actually being used
+
+-   Reduces confusion for other developers
+
+-   Smaller, more maintainable codebase
+
+-   Old code is still available in version control if needed
 
 ========== Id ==========  
 25

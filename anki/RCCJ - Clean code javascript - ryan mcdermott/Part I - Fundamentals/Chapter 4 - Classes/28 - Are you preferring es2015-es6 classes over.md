@@ -2,21 +2,7 @@
 
 ### Are you preferring ES2015/ES6 classes over ES5 functions?
 
-ES2015/ES6 classes provide a clearer, more intuitive syntax for object-oriented programming in JavaScript compared to the ES5 prototype-based approach. They make inheritance patterns more readable and reduce boilerplate code.
-
-Key benefits of ES6 classes:
-
--   Clearer syntax for OOP concepts
-
--   Built-in constructor method
-
--   Straightforward inheritance with 'extends'
-
--   Better handling of `this` binding
-
--   Enhanced readability and maintainability
-
-**Bad:**
+Look at this code. What's wrong with it?
 
 ```javascript
 const Animal = function (age) {
@@ -52,13 +38,41 @@ const Human = function (age, furColor, languageSpoken) {
 Human.prototype = Object.create(Mammal.prototype);
 Human.prototype.constructor = Human;
 Human.prototype.speak = function speak() {};
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How readable is this inheritance pattern?
+
+-   How much boilerplate code is needed?
+
+-   Is there a clearer way to show the relationship between classes?
+
+-   What happens if you forget the `new` keyword?
+
+</details>  
 
 ========== Answer ==========  
 
-ES6 classes provide a much cleaner and more intuitive way to implement object-oriented patterns in JavaScript.
+**The Principle**:
 
-**Good:**
+ES2015/ES6 classes provide a clearer, more intuitive syntax for object-oriented programming in JavaScript compared to the ES5 prototype-based approach. They make inheritance patterns more readable and reduce boilerplate code.
+
+Key benefits of ES6 classes:
+
+-   Clearer syntax for OOP concepts
+
+-   Built-in constructor method
+
+-   Straightforward inheritance with 'extends'
+
+-   Better handling of `this` binding
+
+-   Enhanced readability and maintainability
+
+**Solution**:
 
 ```javascript
 class Animal {
@@ -93,6 +107,18 @@ class Human extends Mammal {
     }
 }
 ```
+
+**Why is this better?**
+
+-   Clearer inheritance relationships
+
+-   Less boilerplate code
+
+-   Built-in constructor method
+
+-   No manual prototype chain setup
+
+-   More familiar to developers from other languages
 
 ========== Id ==========  
 28

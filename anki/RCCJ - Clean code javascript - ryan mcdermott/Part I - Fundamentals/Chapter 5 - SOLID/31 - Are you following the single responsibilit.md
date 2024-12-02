@@ -2,9 +2,7 @@
 
 ### Are you following the Single Responsibility Principle (SRP)?
 
-The Single Responsibility Principle states that a class should have only one reason to change. This means each class should focus on doing one specific thing well, rather than trying to handle multiple responsibilities. This makes code more maintainable, testable, and easier to understand.
-
-**Bad:**
+Look at this code. What's wrong with it?
 
 ```javascript
 class UserSettings {
@@ -14,21 +12,39 @@ class UserSettings {
 
     changeSettings(settings) {
         if (this.verifyCredentials()) {
-            // ...
+            // ... change settings
         }
     }
 
     verifyCredentials() {
-        // ...
+        // ... check user credentials
     }
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How many different responsibilities does this class have?
+
+-   What if authentication rules change?
+
+-   What if settings logic changes?
+
+-   Could these responsibilities be separated?
+
+-   What's the "single reason to change" for this class?
+
+</details>  
 
 ========== Answer ==========  
 
-By separating authentication from settings management, we create two classes that each have a single responsibility. This makes the code more modular and easier to modify without affecting other functionality.
+**The Principle**:
 
-**Good:**
+The Single Responsibility Principle states that a class should have only one reason to change. This means each class should focus on doing one specific thing well, rather than trying to handle multiple responsibilities. This makes code more maintainable, testable, and easier to understand.
+
+**Solution**:
 
 ```javascript
 class UserAuth {
@@ -37,7 +53,7 @@ class UserAuth {
     }
 
     verifyCredentials() {
-        // ...
+        // ... check user credentials
     }
 }
 
@@ -49,11 +65,23 @@ class UserSettings {
 
     changeSettings(settings) {
         if (this.auth.verifyCredentials()) {
-            // ...
+            // ... change settings
         }
     }
 }
 ```
+
+**Why is this better?**
+
+-   Each class has a single responsibility
+
+-   Authentication logic is separate from settings management
+
+-   Changes to auth don't affect settings and vice versa
+
+-   Easier to test each component independently
+
+-   More maintainable and flexible design
 
 ========== Id ==========  
 31

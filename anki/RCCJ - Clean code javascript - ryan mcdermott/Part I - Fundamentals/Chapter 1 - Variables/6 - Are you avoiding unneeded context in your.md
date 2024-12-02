@@ -2,9 +2,7 @@
 
 ### Are you avoiding unneeded context in your names?
 
-When the context is already clear from the class or object name, don't repeat it in the property names. This creates unnecessary verbosity and redundancy.
-
-**Bad:**
+What's redundant about this code?
 
 ```javascript
 const Car = {
@@ -16,13 +14,27 @@ const Car = {
 function paintCar(car, color) {
     car.carColor = color;
 }
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What context does the `Car` object already provide?
+
+-   Are the 'car' prefixes adding any valuable information?
+
+-   How could we make this more concise while maintaining clarity?
+
+</details>  
 
 ========== Answer ==========  
 
-Remove redundant context when the parent object/class name already provides it. This makes the code more concise and easier to read while maintaining clarity.
+**The Principle**:
 
-**Good:**
+When the context is already clear from the class or object name, don't repeat it in the property names. This creates unnecessary verbosity and redundancy.
+
+**Solution**:
 
 ```javascript
 const Car = {
@@ -35,6 +47,10 @@ function paintCar(car, color) {
     car.color = color;
 }
 ```
+
+**Why is this better?**
+
+We've removed the redundant 'car' prefix from `car.carColor` since the `Car` object already provides that context. The code is more concise while remaining just as clear.
 
 ========== Id ==========  
 6

@@ -2,6 +2,40 @@
 
 ### Are you using getters and setters effectively?
 
+Look at this code. What's wrong with it?
+
+```javascript
+function makeBankAccount() {
+    // ...
+
+    return {
+        balance: 0,
+        // ...
+    };
+}
+
+const account = makeBankAccount();
+account.balance = 100;
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What happens if someone sets a negative balance?
+
+-   How would you add validation logic?
+
+-   What if you need to log when the balance changes?
+
+-   How can you protect the balance from direct manipulation?
+
+</details>  
+
+========== Answer ==========  
+
+**The Principle**:
+
 Getters and setters provide a way to control access to object properties, enabling better encapsulation and more flexible property management. They allow you to add validation, logging, or other behaviors without changing the interface.
 
 Key benefits of getters and setters:
@@ -16,27 +50,7 @@ Key benefits of getters and setters:
 
 -   Enables lazy loading of properties
 
-**Bad:**
-
-```javascript
-function makeBankAccount() {
-    // ...
-
-    return {
-        balance: 0,
-        // ...
-    };
-}
-
-const account = makeBankAccount();
-account.balance = 100;
-```  
-
-========== Answer ==========  
-
-Using getters and setters provides better control over property access and modification, allowing for validation, logging, and other behaviors to be added without changing the interface.
-
-**Good:**
+**Solution**:
 
 ```javascript
 function makeBankAccount() {
@@ -68,6 +82,18 @@ function makeBankAccount() {
 const account = makeBankAccount();
 account.setBalance(100);
 ```
+
+**Why is this better?**
+
+-   Validates input before setting values
+
+-   Enables logging of property access
+
+-   Protects internal state
+
+-   Easier to modify behavior without changing interface
+
+-   Better encapsulation
 
 ========== Id ==========  
 26

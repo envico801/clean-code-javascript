@@ -2,9 +2,7 @@
 
 ### Are you using Promises instead of callbacks?
 
-Promises provide a cleaner way to handle asynchronous operations compared to callbacks. They help avoid "callback hell" (deeply nested callbacks) and provide better error-handling mechanisms. Promises make asynchronous code more readable and maintainable.
-
-**Bad:**
+Look at this code. What problems do you see with this approach?
 
 ```javascript
 import { get } from 'request';
@@ -26,13 +24,29 @@ get(
         }
     },
 );
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How easy is it to follow the flow of operations?
+
+-   What happens to the indentation as more callbacks are added?
+
+-   How scattered is the error handling?
+
+</details>  
 
 ========== Answer ==========  
 
-Using Promises creates a flat chain of operations that's easier to read and maintain. Error handling is consolidated into a single .catch() block, making the code more concise and clearer.
+**The Principle**:
 
-**Good:**
+Promises provide a cleaner way to handle asynchronous operations compared to callbacks. They help avoid "callback hell" (deeply nested callbacks) and provide better error-handling mechanisms. Promises make asynchronous code more readable and maintainable.
+
+**Solution**:
+
+Here's a better way to write it:
 
 ```javascript
 import { get } from 'request-promise';
@@ -49,6 +63,10 @@ get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
         console.error(err);
     });
 ```
+
+**Why is this better?**
+
+The Promise chain creates a flat structure that's easier to read and maintain. Error handling is consolidated into a single `.catch()` block, making the code more concise and clearer.
 
 ========== Id ==========  
 37

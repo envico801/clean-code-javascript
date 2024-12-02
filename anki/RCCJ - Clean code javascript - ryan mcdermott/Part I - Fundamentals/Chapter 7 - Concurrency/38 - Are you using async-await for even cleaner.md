@@ -2,9 +2,7 @@
 
 ### Are you using Async/Await for even cleaner code?
 
-Async/await is a modern JavaScript feature that makes asynchronous code look and behave more like synchronous code. It provides the best readability while maintaining all the benefits of Promises, making code easier to understand and maintain.
-
-**Bad:**
+Look at this Promise-based code. While it's better than callbacks, how could we make it even more readable?
 
 ```javascript
 import { get } from 'request-promise';
@@ -20,13 +18,29 @@ get('https://en.wikipedia.org/wiki/Robert_Cecil_Martin')
     .catch((err) => {
         console.error(err);
     });
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   How could we make this read more like synchronous code?
+
+-   What modern JavaScript feature could help here?
+
+-   How could we make error handling more familiar?
+
+</details>  
 
 ========== Answer ==========  
 
-Using async/await makes the code read like synchronous code while maintaining asynchronous behavior. The try/catch block provides familiar error handling syntax, making it more intuitive for developers.
+**The Principle**:
 
-**Good:**
+Async/await is a modern JavaScript feature that makes asynchronous code look and behave more like synchronous code. It provides the best readability while maintaining all the benefits of Promises, making code easier to understand and maintain.
+
+**Solution**:
+
+Here's an even better approach:
 
 ```javascript
 import { get } from 'request-promise';
@@ -46,6 +60,14 @@ async function getCleanCodeArticle() {
 
 getCleanCodeArticle();
 ```
+
+**Why is this better?**
+
+The code reads like synchronous code while maintaining asynchronous behavior. The try/catch block provides familiar error handling syntax that most developers are comfortable with.
+
+### Chapter 8 - Error Handling
+
+Thrown errors are a good thing! They mean the runtime has successfully identified when something in your program has gone wrong, and it's letting you know by stopping function execution on the current stack, killing the process (in Node), and notifying you in the console with a stack trace.
 
 ========== Id ==========  
 38

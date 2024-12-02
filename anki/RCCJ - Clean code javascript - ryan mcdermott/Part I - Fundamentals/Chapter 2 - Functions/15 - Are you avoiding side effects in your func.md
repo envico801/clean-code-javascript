@@ -2,13 +2,7 @@
 
 ### Are you avoiding side effects in your functions? (Part 1)
 
-Side effects are changes that a function makes to any state outside its own scope. These can include modifying global variables, changing input parameters, or affecting the environment. They make code harder to test and can lead to unexpected bugs.
-
-**Reference**:
-
--   [https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-1](https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-1)
-
-**Bad:**
+What's wrong with this code's approach to string manipulation?
 
 ```javascript
 // Global variable referenced by following function.
@@ -22,13 +16,35 @@ function splitIntoFirstAndLastName() {
 splitIntoFirstAndLastName();
 
 console.log(name); // ['Ryan', 'McDermott'];
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What happens to the original `name` variable?
+
+-   Could this function cause problems in other parts of the code?
+
+-   How would you test this function?
+
+-   What if multiple functions need to use the original name?
+
+</details>  
 
 ========== Answer ==========  
 
-Write pure functions that take inputs and return outputs without modifying external state. This makes the code more predictable and easier to test.
+**The Principle**:
 
-**Good:**
+Side effects are changes that a function makes to any state outside its own scope. These can include modifying global variables, changing input parameters, or affecting the environment. They make code harder to test and can lead to unexpected bugs.
+
+**Reference**:
+
+-   [https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-1](https://github.com/ryanmcdermott/clean-code-javascript#avoid-side-effects-part-1)
+
+**Solution**:
+
+Here's a better way to write it:
 
 ```javascript
 function splitIntoFirstAndLastName(name) {
@@ -41,6 +57,18 @@ const newName = splitIntoFirstAndLastName(name);
 console.log(name); // 'Ryan McDermott';
 console.log(newName); // ['Ryan', 'McDermott'];
 ```
+
+**Why is this better?**
+
+-   Original data remains unchanged
+
+-   Function is predictable and easier to test
+
+-   Clear input/output relationship
+
+-   Can use the original name value elsewhere in the code
+
+-   Multiple functions can safely use the same input
 
 ========== Id ==========  
 15

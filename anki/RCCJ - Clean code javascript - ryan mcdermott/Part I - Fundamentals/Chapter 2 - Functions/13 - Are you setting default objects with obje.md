@@ -2,9 +2,7 @@
 
 ### Are you setting default objects with `Object.assign`?
 
-When working with objects that need default values, using `Object.assign` or the spread operator provides a cleaner and more maintainable way to set default properties compared to manual property assignments.
-
-**Bad:**
+What's problematic about this code?
 
 ```javascript
 const menuConfig = {
@@ -23,13 +21,29 @@ function createMenu(config) {
 }
 
 createMenu(menuConfig);
-```  
+```
+
+<details><summary>🔍 Hints</summary>
+
+Think about:
+
+-   What happens to the original config object?
+
+-   Is this code immutable?
+
+-   How could we make this cleaner using modern JavaScript?
+
+</details>  
 
 ========== Answer ==========  
 
-Use `Object.assign` to create a new object that combines default values with provided configuration. This approach is more declarative and prevents mutation of the original config object.
+**The Principle**:
 
-**Good:**
+When working with objects that need default values, using `Object.assign` or the spread operator provides a cleaner and more maintainable way to set default properties compared to manual property assignments.
+
+**Solution**:
+
+Here's a better approach:
 
 ```javascript
 const menuConfig = {
@@ -56,6 +70,16 @@ function createMenu(config) {
 
 createMenu(menuConfig);
 ```
+
+**Why is this better?**
+
+-   Original config object remains unchanged
+
+-   All defaults are clearly defined in one place
+
+-   More declarative and easier to understand
+
+-   Returns a new object instead of modifying the input
 
 ========== Id ==========  
 13
